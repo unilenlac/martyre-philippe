@@ -1,4 +1,4 @@
-# Vitae Prophetarum
+# Martyre de Philippe
 
 Ici une brève introduction du git.
 
@@ -11,21 +11,22 @@ Ici les principaux et récents changements
 
 id | Branche (nomenclature) | Exemple | Usage
 --- | ----------- | ----------- | -----------
-1|trans_[recension]_[code_manuscrit]| trans_anonyme_ambros-h104|transcription
-2|rtext_[recension]_[code_manuscrit]| rtext_anonyme_ambros-h104|révision du text
-3|rbalise_[recension]_[code_manuscrit]| rbalise_anonyme_ambros-h104|révision des balises
-4|rsyntax_[recension]_[code_manuscrit]| rsyntaxe_anonyme_ambros-h104|révision de la syntaxe
-5|rev2_[recension]_[code_manuscrit]| rev2_anonyme_ambros-h104|seconde révision
+1|[accronyme]-ready|pm-ready|déploiement/acquisition de l'édition actuelle
+2|[acronyme]-e[numéro de l'édition]|pm-e1|développement de l'édition
+3|trans_[recension]_[code_manuscrit]| trans_anonyme_ambros-h104|transcription
+4(optionel)|rtext_[recension]_[code_manuscrit]| rtext_anonyme_ambros-h104|révision du text
+5(optionel)|rbalise_[recension]_[code_manuscrit]| rbalise_anonyme_ambros-h104|révision des balises
+6(optionel)|rsyntax_[recension]_[code_manuscrit]| rsyntaxe_anonyme_ambros-h104|révision de la syntaxe
+7(optionel)|rev2_[recension]_[code_manuscrit]| rev2_anonyme_ambros-h104|seconde révision
 
-*Il est possible de travailler à plusieurs sur les branches 2, 3 et 4.*
+*Il est possible de travailler à plusieurs sur les branches 3, 4 et 5.*
 
 ## Stratégie :
 
-A l'occasion de la réorganisation du git, deux branches ont été ajoutée au dossier :
-1. *La branche vp-ready(master):*
-    la branche vp-ready est bloquée, elle doit recevoir tous les manuscrits transcrits et révisés qui constituent "l'édition" finale des transcriptions.
-2. *La branche vp-v1:*
-    la branche vp-v1 comporte tous les manuscrits révisés dont le status est sur l'état "revised". Tous les membres de l'équipe peuvent merger sur cette branche. **Ne pas verser sur cette branche des transcriptions qui n'ont pas été entièrement révisées.**
+1. *La branche 1 [accronyme]-ready(master):*
+    la branche [accronyme]-ready est bloquée, elle doit recevoir tous les manuscrits transcrits et révisés qui constituent "l'édition" finale des transcriptions.
+2. *La branche 2 ([acronyme]-e[numéro de l'édition]):*
+    la branche 2 désigne l'édition en cours (e) et comporte tous les manuscrits révisés dont le status est sur l'état "revised". Tous les membres de l'équipe peuvent merger sur cette branche. **Ne pas verser sur cette branche des transcriptions qui n'ont pas été entièrement révisées.**
 
 La transcription des manuscrits suit en tout quatre étapes:
 
@@ -45,19 +46,23 @@ La stratégie des branches doit au possible suivre cette structure:
 ## 1. les branches **"trans"** (transcription)
 Pour transcrire un document, on pourra créer une branche de type transcription depuis la branche vp-v1. Il est aussi possible de créer une branche orpheline.
 
+**⚠️ Le recours à cette branche est obligatoire**
+
 nomenclature recommandée:
 
->trans_[recension]_[code_manuscrit]
+>trans_[recension]_[nom_du_fichier]
     
 exemple (création d'une branche):
 ``` 
 git branch trans_anonyme_ambros-h104
 ```
-**⚠️Attention:** il faut veiller à créer la branche à partir de la branche **vp-v1** pour avoir un historique des commits à jour et cohérent.
+**⚠️Attention:** il faut veiller à créer la branche à partir de la branche **vp-v1** pour avoir un historique des commits à jour et cohérent. Il n'est pas nécessaire de mettre l'extension dans le nom (.xml ou autre)
 
-## 2. Les branches **"rtext"** (révision du text) :
+## 2. Les branches/commits **"rtext"** (révision du text) :
 
 Lorsqu'une transcription s'achève, on peut créer et se placer sur une branche de révision du texte. La révision du texte précède les deux autres révisions et doit être achevée avant de passer aux deux autres.
+
+Il est aussi possible de rester sur la même branche (trans). Si c'est votre souhait, il faudra intituler le message des commits avec la mention **rtext**
 
 **contraintes :**
 
@@ -79,6 +84,8 @@ git branch rtext_anonyme_ambros-h104
 
 Lorsque la première révision s'achève, on peut créer et se placer sur une branche de révision des balises.
 
+Il est aussi possible de rester sur la même branche (trans). Si c'est votre souhait, il faudra intituler le message des commits avec la mention **rbalise**
+
 **contraintes :**
 
 - Si possible, la personne qui révise n'est pas celle qui a transcrit. 
@@ -96,9 +103,12 @@ git branch rbalise_anonyme_ambros-h104
 
 **⚠️ Attention :** il faut veiller à créer la branche à partir d'une branche de **revision de balises** pour avoir un historique des commits à jour et cohérent.
 
+
 ## 4. les branches **"rsyntax"** (révision de la syntaxe):
 
 Lorsque la révision des balises est terminée, on peut créer une branche et basculer sur une branche de révision de la syntax (**rsyntax**). 
+
+Il est aussi possible de rester sur la même branche (trans). Si c'est votre souhait, il faudra intituler le message des commits avec la mention **rtext**
 
 **contraintes :**
 
@@ -109,6 +119,8 @@ Lorsque la révision des balises est terminée, on peut créer une branche et ba
 ## 5. les branches **"r2"** (deuxième tour de révision):
 
 Si on souhaite faire un second tour de révision, on pourra poursuivre ce travail sur une branche nommée **r2**. En pricipe le second tour de révision comporte moins de chose à examiner. On pourra donc par commodité utiliser une seule branche pour parcourir le texte, le balisage et la syntaxe lors de cette phase.
+
+A noter que la branch qui contient la transcription (trans) et les premières révisions doivent idéalement être mergées dans la branche de développement (branche 2, c.f.: stratégie des branche -> résumé)
 
 nomenclature recommandée:
 >r2_[recension]_[code_manuscrit]
