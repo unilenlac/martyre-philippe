@@ -1,0 +1,14 @@
+Notes pour Stefanos :
+
+Cher Stefanos, c'est dans ce dossier que tu dois placer les 
+transcriptions, sur le même modèle que le Vitae Prophetarum.
+Stp, n'oublies pas de créer une branche pour chaque transcription. 
+Il y a dans le dossier un fichier README.md qui donne les 
+indications nécessaires si tu ne sais plus comment nommer les 
+branches. Le fichier DOC-GIT.md, quant à lui, constient une 
+brève documentation sur Git.
+
+Bon travail,
+
+Renato
+
