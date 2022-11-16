@@ -3,7 +3,8 @@
 Ici une brève introduction du git.
 
 # Nouvelle version :
-Ici les principaux et récents changements
+
+- un fichier vierge de transciption a été rajouté dans le dossier "templates"
 
 # Stratégie de ramification (branching strategy) :
 

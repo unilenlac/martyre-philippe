@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="../../TEI-IRSB.css"?>
+<!DOCTYPE TEI SYSTEM "../tei-irsb.dtd">
+<TEI>
+    <!-- ********************************************** -->
+    <!-- CE FICHIER DOIT ÊTRE COPIE DANS UN DOSSIER     -->
+    <!-- ********************************************** -->
+    <!-- NE PAS OUBLIER DE CHANGER L'ENTETE ET LE STATUS-->
+    <!-- ********************************************** -->
+    
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Le Martyre de Philippe</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>IRSB - Projet FNS « Éditer numériquement la littérature apocryphe chrétienne » (ENLAC) </publisher>
+				<pubPlace>Lausanne</pubPlace>
+				<date>2021</date>
+			</publicationStmt>
+		<sourceDesc>
+			<msDesc xml:id="">
+				<msIdentifier>
+					<country></country>
+					<settlement></settlement>
+					<repository></repository>
+					<collection></collection>
+					<idno></idno>
+				</msIdentifier>
+			</msDesc>
+		</sourceDesc>
+	</fileDesc>
+	<revisionDesc status="transcription-in-progress">
+		<change />
+	</revisionDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div>
+				<pb n=""/>
+				<cb n=""/>
+				<milestone n="titre" />
+				<head type="initial"></head >
+				<milestone n="1.Isaie" />
+				<p>
+					<lb n=""/><hi>ἡ</hi>σαΐας, ἢν ἀπὸ <abbr type="ns">ἱλημ</abbr>. 
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>
