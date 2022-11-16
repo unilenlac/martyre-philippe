@@ -2,10 +2,13 @@ Notes pour Stefanos :
 
 Cher Stefanos, c'est dans ce dossier que tu dois placer les 
 transcriptions, sur le même modèle que le Vitae Prophetarum.
+Tu trouvera un template dans le dossier "templates", il faut copier
+ce fichier et l'insérer dans un nouveau dossier. Pour ajuster 
+la DTD, stp réfère toi au chapitre DTD qui est dans le README.md. 
 Stp, n'oublies pas de créer une branche pour chaque transcription. 
 Il y a dans le dossier un fichier README.md qui donne les 
 indications nécessaires si tu ne sais plus comment nommer les 
-branches. Le fichier DOC-GIT.md, quant à lui, constient une 
+branches. Le fichier DOC-GIT.md, quant à lui, contient une 
 brève documentation sur Git.
 
 Bon travail,
