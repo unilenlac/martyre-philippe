@@ -13,5 +13,5 @@ brève documentation sur Git.
 
 Bon travail,
 
-Renato
+Renato Diaz
 
