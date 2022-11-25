@@ -7,7 +7,7 @@
     <!-- ********************************************** -->
     <!-- NE PAS OUBLIER DE CHANGER L'ENTETE ET LE STATUS-->
     <!-- ********************************************** -->
-    
+    <!-- PM-3_brescia-A-III-3-72.xml-->
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -43,7 +43,7 @@
 				<head type="initial"></head >
 				<milestone n="1.Isaie" />
 				<p>
-					<lb n=""/><hi>ἡ</hi>σαΐας, ἢν ἀπὸ <abbr type="ns">ἱλημ</abbr>. 
+					<lb n=""/><hi>ἡ</hi>σαΐας, ἢν ἀπὸ <abbr type="ns">ἱλημ</abbr>. <!-- Démarrage du martyre!-->
 				</p>
 			</div>
 		</body>
