@@ -21,11 +21,11 @@
 		<sourceDesc>
 			<msDesc xml:id="X">
 				<msIdentifier>
-					<country></country>
-					<settlement></settlement>
-					<repository></repository>
-					<collection></collection>
-					<idno></idno>
+					<country>Grèce</country>
+					<settlement>Météores</settlement>
+					<repository>Sainte-Trinité</repository>
+					<collection>Sainte-Trinité</collection>
+					<idno>116</idno>
 				</msIdentifier>
 			</msDesc>
 		</sourceDesc>
@@ -37,13 +37,36 @@
 	<text>
 		<body>
 			<div>
-				<pb n=""/>
-				<cb n=""/>
-				<milestone n="titre" />
-				<head type="initial"></head >
-				<milestone n="1.Isaie" />
-				<p>
-					<lb n=""/><hi>ἡ</hi>σαΐας, ἢν ἀπὸ <abbr type="ns">ἱλημ</abbr>. 
+				<pb n="68r"/>				
+				<milestone n="titre" /><lb n="7"/><!-- Décoration avant le titre --><seg type="order-number" place="margin-right" hand="manus1" >λόγος<num value= "3">γ</num></seg>μηνὶ
+				<seg type ="reading-date">νοεμβρίω,<num value="14">δεκάτω τετάρτω</num></date>
+				<head type="initial">
+				    <lb n="8"/>ἐκ τῶν περιὥδον φιλίππου τοῦ
+				    <lb n="9"/>ἀποστόλου ἀπὸ πράξεως
+				    <lb n="10"/>μέχρι τέλους αἰν <!-- peu lisible dans la photocopie -->τὸ μαρτύριον</head >
+				<p> <lb n="11"/><hi>κ</hi>ατεκείνον τὸν καιρὸν τραϊανοῦ τοῦ βα-
+				    <lb n="12"/>σιλέως παρηληφώτος τὴν τῶν ρω-
+					<lb n="13"/>μαίων ἀρχὴν· μετὰ τῶ μαρτυρήσαι
+					<lb n="14"/>ἐν ογδώω ἕτι τῆς βασιλείας αὐτοῦ· σὺ
+					<lb n="15"/>μόνα τοῦ κλοπᾶ ἐπίσκοπον ὅντινα ἱ-
+					<lb n="16"/>εῥοσολίμων· δεύτερον δὲ γἐνόμενον ἐ-
+					<lb n="17"/>πίσκοπον μετὰ ϊάκωβον τὸν ἀδελ-
+					<lb n="18"/>φὸν τοῦ <abbr type="ns">κυ</abbr>· τὸν χριματήσαντα τῆς ἐ-
+					<lb n="19"/>κεῖσε ἐκκλησίας· φίλιππος ὁ ἀπόστολος δι-
+					<lb n="20"/>εῥχόμενος· κατὰ λυκίας ἐασίας πόλεις
+					<lb n="21"/>ἐχώρας κατήγγειλεν· πᾶσιν τὸ εὐαγγέ-
+					<lb n="22"/>λιον τοῦ <abbr type="ns">χυ</abbr>· φθάσας δὲ ἐν τῆ πόλει· ὡ-
+					<lb n="23"/>φηορύμη· ἥτις καλείται ἱεράπολεις
+					<lb n="24"/>τῆς ἁ<del hand="corr1" rend="overstrike">σ</del>γίας· ὑπεδέχθη ἡπότινος πι- 
+					<lb n="25"/>στοῦ ὁνόματι στάχυος· συνῆν δὲ αὐτῶ
+					<pb n="68v"/>	
+					<lb n=""/>
+					<lb n=""/>
+					<lb n=""/>
+					<lb n=""/>
+					<lb n=""/>
+					<lb n=""/>
+					<lb n=""/>. 
 				</p>
 			</div>
 		</body>
