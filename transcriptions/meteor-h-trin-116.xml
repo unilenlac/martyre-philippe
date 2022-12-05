@@ -62,8 +62,10 @@
 					<lb n="20"/>γὰρ ἐστὶν ἡ οδὸς αὐτοῦ· ἐπὶ δὴ τοῦ πονηροῦ 
 					<lb n="21"/>υἱὃς ἐστὶν· καὶ ἔστην ἐν αυτῶ υἱὸς πονη<lb n="22"/>ρὸς· <abbr type="ns">πῆρ</abbr> δὲ αὐτοῦ ἐστῖν ὁ διάβολος· ὁ
 					<lb n="23"/>τοῦ θανάτου πρόξενος· <abbr type="ns">μηρ</abbr> δὲ αὐτοῦ
-					<lb n="24"/>ἡ φθορᾶ· ὀργῆ ἐν τοῖς ὁφθαλμοῖς αὐτοῦ· 
-					<lb n="25"/>καὶ ἡ ὀδὸς αὐτοῦ ἅδης· διὸ φεύγεται ἀ-<!--Pour Monsieur RENATO: Comment coller le dernier mot de la dernière ligne-à Revoir! -->
+					<lb n="24"/>ἡ φθορᾶ· ὀργῆ ἐν τοῖς ὁφθαλμοῖς αὐτοῦ·
+					<!--Pour Monsieur RENATO: Comment coller le dernier mot de la dernière ligne-à Revoir! -->
+					<!--RENATO : Il faut demander à Cecilia, il n'y rien dans la documentation. Dans le doute et pour ne pas l'oublier laisse le tiret de césure stp--> 
+					<lb n="25"/>καὶ ἡ ὀδὸς αὐτοῦ ἅδης· διὸ φεύγεται ἀ-
 					<pb n="69r"/>
 					<lb n="1"/>παυτοῦ τοῦ μὴ ἔχοντος ὑπόστασιν· τοῦ ἀ<lb n="2"/>μόρφου τοῦ μὴ ἔχοντος μορφὴν ἐν πά<lb n="3"/>ση τὴ κτ<subst>
 						<del rend="strike">ει</del>
@@ -80,9 +82,15 @@
 					<lb n="17"/>δι'ὧν ἐγέννησεν ὁ πονηρὸς ὅφις· ὁ δράκων
 					<lb n="18"/>ὁ ἀρχαίκακος· νομὴν ἀπολείας καὶ θα<lb n="19"/>νατοὶ τὴν ψυχὴν· ἐπειδὶ ἡ τῶν κακῶν ἐ<lb n="20"/>πιθυμία πᾶσα ἐξ αὐτοῦ προελύληθεν·
 					<lb n="21"/>καὶ αὐτὸς ἐστὶν ἡ ρίζα τῆς ἀνομίας· τὸ 
-					<lb n="22"/>σύστημα τῶν κακῶν· ὁ θάνατος τῶν <!--Pour Monsieur RENATO: Ici il faut lire ψυχῶν au lieu κακῶν que le copiste probablement a surécrit(overstrike). Pour montrer ce changement avec les balises existantes, il faut trois lignes de trains Intercités (IC 90 et IC 1) et deux Regionaux RE S4 et S3 de CFF...Comment faire pour remplacer cette longue commande?des idées? SP  --><subst>
-						<del rend="overstrike" hand="manus1-dubia">κα</del>/ψυ</subst><lb n="23"/><subst>
-							<del rend="overstrike" hand="manus1-dubia">κ</del>/χ</subst>ῶν· ἡ γὰρ ἐπιθυμία τοῦ ἐχθροῦ· ὁπλἰ<lb n="24"/>ζεται κατὰ τῶν πιστῶν· <!-- symbole dans cet endroit? peu lisible dans la photocopie --> ἐξέρχεται ἀπὸ
+					<lb n="22"/>σύστημα τῶν κακῶν· ὁ θάνατος τῶν <!--Pour Monsieur RENATO: Ici il faut lire ψυχῶν au lieu κακῶν que le copiste probablement a surécrit(overstrike). Pour montrer ce changement avec les balises existantes, il faut trois lignes de trains Intercités (IC 90 et IC 1) et deux Regionaux RE S4 et S3 de CFF...Comment faire pour remplacer cette longue commande?des idées? SP  -->
+					<!-- RENATO: je te propose cela 
+					<subst><del rend="overstrike">κακῶν</del><add place="over" hand="manu1-dubia">ψυχῶν</add></subst>
+					cf passage C3 du fichier "Manuscrit_Transcription_Tutorial_4_4.pdf"
+					N'oublie pas de placer tout le bloc sur le mot qui pose problème. Le bloc de code remplace le mot.
+					-->
+					
+					<subst><del rend="overstrike" hand="manus1-dubia">κα</del>/ψυ</subst><lb n="23"/><subst>
+					<subst><del rend="overstrike" hand="manus1-dubia">κ</del>/χ</subst>ῶν· ἡ γὰρ ἐπιθυμία τοῦ ἐχθροῦ· ὁπλἰ<lb n="24"/>ζεται κατὰ τῶν πιστῶν· <!-- symbole dans cet endroit? peu lisible dans la photocopie --> ἐξέρχεται ἀπὸ
 					<lb n="25"/>τοῦ σκότους· καὶ πορεύεται ἐν τῶ σκότει· πο-<!--Pour Monsieur RENATO: Comment coller le dernier mot de la dernière ligne-à Revoir! -->				
 				</p>
 			</div>
