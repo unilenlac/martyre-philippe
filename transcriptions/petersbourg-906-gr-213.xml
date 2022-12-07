@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/css" href="../../TEI-IRSB.css"?>
 <!DOCTYPE TEI SYSTEM "../tei-irsb.dtd">
 <TEI>
-    <!-- ********PM-6 #petersbourg-906-gr-213 test********************************* -->
+    <!-- ********PM-6 petersbourg-906-gr-213 test********************************* -->
     <!-- CE FICHIER DOIT ÊTRE COPIE DANS UN DOSSIER     -->
     <!-- ********************************************** -->
     <!-- NE PAS OUBLIER DE CHANGER L'ENTETE ET LE STATUS-->
@@ -22,12 +22,12 @@
 			</publicationStmt>
 		<sourceDesc>
 			<msDesc xml:id="X">
-				<msIdentifier>
-					<country></country>
-					<settlement></settlement>
-					<repository></repository>
-					<collection></collection>
-					<idno></idno>
+				<msIdentifier><!-- RR à corriger -->
+					<country>Russia</country>
+					<settlement>Saint Petersburg</settlement>
+					<repository>Gos. publ. Bibl.</repository>
+					<collection>gr.</collection>
+					<idno>213</idno>
 				</msIdentifier>
 			</msDesc>
 		</sourceDesc>
