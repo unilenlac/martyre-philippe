@@ -21,11 +21,11 @@
 		<sourceDesc>
 			<msDesc xml:id="X">
 				<msIdentifier>
-					<country></country>
-					<settlement></settlement>
-					<repository></repository>
-					<collection></collection>
-					<idno></idno>
+					<country>Russia</country>
+					<settlement>Saint Petersburg</settlement>
+					<repository>Gos. publ. Bibl.</repository>
+					<collection>gr.</collection>
+					<idno>94</idno>
 				</msIdentifier>
 			</msDesc>
 		</sourceDesc>
@@ -37,13 +37,19 @@
 	<text>
 		<body>
 			<div>
-				<pb n=""/>
-				<cb n=""/>
-				<milestone n="titre" />
-				<head type="initial"></head >
-				<milestone n="1.Isaie" />
-				<p>
-					<lb n=""/><hi>ἡ</hi>σαΐας, ἢν ἀπὸ <abbr type="ns">ἱλημ</abbr>. 
+				<pb n="45r"/>
+				<cb n="2"/>
+				<milestone n="titre"/>
+				<head type="initial"> <add place="margin-top" hand="manus1">μηνὶ τῶ αὐτῷ <num value="14">ιδ΄</num>νοεμβρίω</add> ἐκ τῶν περιόδων<lb n="28"/>φιλίππου τοῦ άποστόλου·
+					<p>
+					<lb n="29"/>πράξις πεντε καὶ δεκά<lb n="30"/>της· μέχρι τέλους τοῦ μαρ<lb n="31"/>τυρίου αὐτοῦ <abbr type="ns">κε</abbr> εὐλόγησον</head >
+					<lb n="32"/><hi/>κ<hi/>ατὰ τὸν καιρὸν ἐκεῖνον
+					<pb n="45v"/>
+					<cb n="1"/>
+					<lb n="1"/>ἀνδριανοῦ τοῦ βασι<lb n="2"/>λέως· παρειληφῶτος τὴν τῶν ῥωμαίων ἀρ<lb n="3"/>χὴν· μετὰ τὸ μαρτυ<lb n="4"/>ρῆσαι ἐν ὁγδόω ἔτη σί<lb n="5"/>μωνα τὸν κλοπὰ· ἐπί<lb n="6"/>σκοπον ὄντα ἱεροσω<lb n="7"/>λύμων·  δεύτερον γενό<lb n="8"/>μενον ἐπίσκοπον· με<lb n="9"/>τὰ ἰάκωβον χρημα<lb n="10"/>τήσαντα άδελφὸν τοῦ<lb n="11"/>κυρίου τῆς ἐκεῖσε ἐκκλη<lb n="12"/>σίας· 
+					<lb n=""/>
+					<lb n=""/>
+				
 				</p>
 			</div>
 		</body>
