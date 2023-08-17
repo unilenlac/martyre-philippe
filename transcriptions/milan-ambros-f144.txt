@@ -1,7 +1,7 @@
 @f. 36r, col. I, l.23
-@titre
+@titre start
 μαρτύριον τοῦ ἀγίου ἀποστόλου φιλίππου
-@texte f.36r, col. I, l.24
+@titre end
 ὅτε δὲ φίλιππος ὁ τοῦ χριστοῦ ἀπόσ-
 τολος· κατεκλείσθη ἐν τῶ ἱερῶ
 τῆς ἐχίδνης ὑπὸ τοῦ ἡγεμόνος
@@ -489,3 +489,5 @@ f. 38v, col. II
 ησαν καθῶς εἶπεν αὐτοῖς, καὶ ἔθαψαν
 αὐτὸν ἐν ἐκείνω τῶ τόπω· φωνῆ δὲ εὐ-
 f. 39r, col. I.
+ici le manuscrit
+https://ambrosiana.comperio.it/opac/detail/view/ambro:catalog:74249
