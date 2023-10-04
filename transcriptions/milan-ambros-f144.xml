@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/css" href="../../TEI-IRSB.css"?>
 <!DOCTYPE TEI SYSTEM "../tei-irsb.dtd">
+<?xml-stylesheet type="text/css" href="../tei-irsb.css"?>
 <TEI>
     <!-- ********************************************** -->
     <!-- CE FICHIER DOIT ÊTRE COPIE DANS UN DOSSIER     -->
