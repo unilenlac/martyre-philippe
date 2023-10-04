@@ -37,12 +37,16 @@
 	<text>
 		<body>
 			<div>
+				<cb n="1"/>
+				<milestone n="isaie"/>
+				<head type="final"></head>
 				<pb n=""/>
 				<cb n=""/>
 				<milestone n="titre" />
 				<head type="initial"></head >
 				<milestone n="1.Isaie" />
 				<p>
+					<lb/>μαρτύριον τοῦ ἀγίου ἀποστόλου φιλίππου
 					<lb n=""/><hi>ἡ</hi>σαΐας, ἢν ἀπὸ <abbr type="ns">ἱλημ</abbr>. 
 				</p>
 			</div>
