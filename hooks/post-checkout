@@ -14,6 +14,8 @@ current_branch=$(git rev-parse --abbrev-ref HEAD)
 # remove the Youtrack issue prefix if it exists (e.g., PM-1_)
 current_branch=${current_branch#*_}
 transcriptions_dir="transcriptions"
+master_branch="PM-1_master"
+file_extension=".xml"
 
 # if the file does not exist, cancel checkout
 if [[ ! -d "$transcriptions_dir" ]]; then
@@ -21,8 +23,9 @@ if [[ ! -d "$transcriptions_dir" ]]; then
     exit 1
 fi
 
+
 # if current branch is main or master, lock all files
-if [[ "$current_branch" == "main" || "$current_branch" == "master" || "$current_branch" == "PM-1_master" ]]; then
+if [[ "$current_branch" == "$master_branch" ]]; then
     for file in "$transcriptions_dir"/*; do
         if [[ -f "$file" ]]; then
             chmod u-w "$file"  # lock all files
@@ -34,7 +37,7 @@ fi
 # Lock all files in the transcriptions directory except for the one that matches the current branch name
 for file in "$transcriptions_dir"/*; do
     if [[ -f "$file" ]]; then
-        filename=$(basename "$file" .xml)  # Assuming files have .xml extension
+        filename=$(basename "$file" "$file_extension")  # Assuming files have .xml extension
         if [[ "$filename" == "$current_branch" ]]; then
             chmod u+w "$file"  # Unlock the file for the current branch
         else
