@@ -18,6 +18,7 @@ if [[ ! -d "$transcriptions_dir" ]]; then
     echo "Transcriptions directory does not exist. Cancelling checkout."
     exit 1
 fi
+
 # if current branch is main or master, lock all files
 if [[ "$current_branch" == "main" || "$current_branch" == "master" || "$current_branch" == "PM-1_master" ]]; then
     for file in "$transcriptions_dir"/*; do

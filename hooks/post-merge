@@ -8,7 +8,7 @@ current_branch=$(git rev-parse --abbrev-ref HEAD)
 transcriptions_dir="transcriptions"
 
 # if branch is main or master and merge succeeds, lock all files
-if [[ "$current_branch" == "main" || "$current_branch" == "master" ]]; then
+if [[ "$current_branch" == "main" || "$current_branch" == "master" || "$current_branch" == "PM-1_master" ]]; then
     for file in "$transcriptions_dir"/*; do
         if [[ -f "$file" ]]; then
             chmod u-w "$file"  # Lock all files
