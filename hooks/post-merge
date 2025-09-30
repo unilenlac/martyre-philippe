@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Post-merge hook
+# after a successful merge, this hook will lock any files in the "transcriptions" directory
+
+# Get the current branch name
+current_branch=$(git rev-parse --abbrev-ref HEAD)
+transcriptions_dir="transcriptions"
+
+# if branch is main or master and merge succeeds, lock all files
+if [[ "$current_branch" == "main" || "$current_branch" == "master" ]]; then
+    for file in "$transcriptions_dir"/*; do
+        if [[ -f "$file" ]]; then
+            chmod u-w "$file"  # Lock all files
+        fi
+    done
+    exit 0
+fi

@@ -1,0 +1,41 @@
+#!/bin/bash
+
+# This Git hook will lock any files in the "transcriptions" directory
+# except for the one that share the same name as the current branch.
+# locked file are read-only and cannot be modified until unlocked.
+# ulocked files are writable. This is useful for ensuring that
+# only one branch can modify a specific transcription file at a time.
+# This script should be placed in the .git/hooks directory as a
+# post-checkout hook to ensure that it runs after every checkout, so that
+# the hook runs on checkout and branch switch.
+
+# Get the current branch name
+current_branch=$(git rev-parse --abbrev-ref HEAD)
+transcriptions_dir="transcriptions"
+
+# if the file does not exist, cancel checkout
+if [[ ! -d "$transcriptions_dir" ]]; then
+    echo "Transcriptions directory does not exist. Cancelling checkout."
+    exit 1
+fi
+# if current branch is main or master, unlock all files
+if [[ "$current_branch" == "main" || "$current_branch" == "master" ]]; then
+    for file in "$transcriptions_dir"/*; do
+        if [[ -f "$file" ]]; then
+            chmod u-w "$file"  # Unlock all files
+        fi
+    done
+    exit 0
+fi
+
+# Lock all files in the transcriptions directory except for the one that matches the current branch name
+for file in "$transcriptions_dir"/*; do
+    if [[ -f "$file" ]]; then
+        filename=$(basename "$file" .xml)  # Assuming files have .xml extension
+        if [[ "$filename" == "$current_branch" ]]; then
+            chmod u+w "$file"  # Unlock the file for the current branch
+        else
+            chmod u-w "$file"  # Lock other files
+        fi
+    fi
+done
