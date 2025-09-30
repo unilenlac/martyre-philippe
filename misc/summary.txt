@@ -1,0 +1,105 @@
+35 ms
+
+doublons: 8
+
+**milan-ambros-f144**
+**paris-gr-bnf-1485**
+**vat-chig-r-vii-39**
+**vat_gr_803** X
+**vat_gr_1636** X X
+**vat_gr_1669** X X
+**vat_gr_1992** X X
+**vat_gr_2123** X X
+
+mss:
+
+athous_iviron_450
+brescia-A-III-3-72
+ebe_2535
+jerusalem-pb-pt-66
+lond_add_26114
+marc_gr_vii_31
+meteor-h-trin-116
+mich_ul_ann_arbor_36
+milan-ambros-f144
+milan-ambros-f144
+milan-ambros-f144
+oxon_mse_d_cl_43
+paris-gr-bnf-1468
+paris-gr-bnf-1485
+paris-gr-bnf-1485
+paris_gr_1219
+paris_gr_1454
+petersbourg-906-gr-213
+petersbourg-906-gr-94
+scorial_y_ii_6
+scorial_y_ii_9
+sinai-gr-1716
+th_esph_61
+vat-chig-r-vii-39
+vat-chig-r-vii-39
+vat-chig-vi-39
+vat-gr-1190
+vat_gr_544
+vat_gr_797
+vat_gr_803
+vat_gr_803
+vat_gr_808
+vat_gr_1631
+vat_gr_1636
+vat_gr_1636
+vat_gr_1669
+vat_gr_1669
+vat_gr_1810
+vat_gr_1989
+vat_gr_1992
+vat_gr_1992
+vat_gr_2123
+vat_gr_2123
+vat-gr807
+
+PM-3_brescia-A-III-3-72
+PM-4_meteor-h-trin-116
+PM-5_petersbourg-906-gr-94
+PM-6_petersbourg-906-gr-213
+PM-7_sinai-gr-1716
+PM-8_jerusalem-pb-pt-66
+PM-9_vat-gr-1190
+PM-10_paris-gr-bnf-1485
+PM-10_paris-gr-bnf-1485
+PM-11_vat-chig-r-vii-39
+PM-11_vat-chig-r-vii-39
+PM-12_milan-ambros-f144
+PM-12_milan-ambros-f144
+PM-12_milan-ambros-f144
+PM-13_vat-gr807
+PM-14_paris-gr-bnf-1468
+PM-15-athous_iviron_450
+PM-16_vat_gr_544
+PM-17_vat_gr_803
+PM-18_vat_gr_808
+PM-19_vat_gr_1636
+PM-20_vat_gr_1669 X
+PM-21_vat_gr_1810
+PM-22_vat_gr_1989
+PM-23_vat_gr_1992 X
+PM-24_vat_gr_2123 X
+PM-25_th_esph_61
+PM-26_lond_add_26114
+PM-27_marc_gr_vii_31
+PM-28_mich_ul_ann_arbor_36
+PM-29_oxon_mse_d_cl_43
+PM-30_paris_gr_1219
+PM-31_paris_gr_1454
+PM-32_scorial_y_ii_6
+PM-33_scorial_y_ii_9
+PM-34_vat_chig_vi_39
+PM-35_vat_gr_797
+PM-36_vat_gr_803
+PM-37_vat_gr_1631
+PM-38_vat_gr_1636 X
+PM-39_vat_gr_1669
+PM-40_vat_gr_1992
+PM-41_vat_gr_2123
+PM-42_ebe_2535
+PM-100_ebe_2535
