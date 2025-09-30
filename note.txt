@@ -1,3 +1,7 @@
+log:
+
+- 30.09.2025 : vat_gr_803 existe sur deux branches (PM-17, PM-36)
+
 Notes pour Stefanos :
 
 Cher Stefanos, c'est dans ce dossier que tu dois placer les 
