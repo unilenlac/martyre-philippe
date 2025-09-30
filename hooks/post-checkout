@@ -11,6 +11,8 @@
 
 # Get the current branch name
 current_branch=$(git rev-parse --abbrev-ref HEAD)
+# remove the Youtrack issue prefix if it exists (e.g., PM-1_)
+current_branch=${current_branch#*_}
 transcriptions_dir="transcriptions"
 
 # if the file does not exist, cancel checkout
