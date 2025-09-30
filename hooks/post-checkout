@@ -18,11 +18,11 @@ if [[ ! -d "$transcriptions_dir" ]]; then
     echo "Transcriptions directory does not exist. Cancelling checkout."
     exit 1
 fi
-# if current branch is main or master, unlock all files
+# if current branch is main or master, lock all files
 if [[ "$current_branch" == "main" || "$current_branch" == "master" ]]; then
     for file in "$transcriptions_dir"/*; do
         if [[ -f "$file" ]]; then
-            chmod u-w "$file"  # Unlock all files
+            chmod u-w "$file"  # lock all files
         fi
     done
     exit 0
