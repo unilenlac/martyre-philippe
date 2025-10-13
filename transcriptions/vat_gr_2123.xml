@@ -1,11 +1,9 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/css" href="../../TEI-IRSB.css"?>
-<!DOCTYPE TEI SYSTEM "../tei-irsb.dtd">
-<TEI>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Le Martyre de Philippe</title>
+				<title>Le Martyre de Philippe (Vat. gr 2123)</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>IRSB - Projet FNS « Éditer numériquement la littérature apocryphe chrétienne » (ENLAC) </publisher>
@@ -31,8 +29,9 @@
 	<text>
 		<body>
 			<div>
-				<pb n=""/>
-				<cb n=""/>
+				<!-- f. 53r, col. I -->
+				<pb n="53r"/>
+				<cb n="1"/>
 				<milestone n="titre" />
 				<head type="initial"></head >
 				<milestone n="1.Isaie" />
@@ -46,9 +45,6 @@
 
 					https://digi.vatlib.it/view/MSS_Vat.gr.2123
 					-->
-					<!-- f. 53r, col. I -->
-					<pb n="53r"/>
-					<cb n="1"/>
 					<lb n="1"/>τοῦ νῦν οὐκ ἐσμὲν ἱερεῖς· ἀ-
 					<lb n="2"/>φοῦ γᾶρ ἐνέκλεισας αὐτοῦς,
 					<lb n="3"/>εὐχομένων αὐτῶν· οὐ μόν-
