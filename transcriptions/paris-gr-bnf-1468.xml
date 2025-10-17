@@ -21,11 +21,11 @@
 		<sourceDesc>
 			<msDesc xml:id="X">
 				<msIdentifier>
-					<country></country>
-					<settlement></settlement>
-					<repository></repository>
-					<collection></collection>
-					<idno></idno>
+					<country>France</country>
+					<settlement>Paris</settlement>
+					<repository>Bibliothèque nationale de France (BNF)</repository>
+					<collection>Grec</collection>
+					<idno>1468</idno>
 				</msIdentifier>
 			</msDesc>
 		</sourceDesc>
@@ -37,6 +37,7 @@
 	<text>
 		<body>
 			<div>
+                <!-- https://gallica.bnf.fr/ark:/12148/btv1b107218498/f13.item -->
 				<pb n=""/>
 				<cb n=""/>
 				<milestone n="titre" />
@@ -849,6 +850,7 @@
                     <lb n="746" />κριτοῦ· ἀλλ'ἔνδυσόν με τὴν
                     <lb n="747" />φωτινήν σου στολὴν· καὶ
 				</p>
+                <!-- fin mutilée -->
 			</div>
 		</body>
 	</text>
