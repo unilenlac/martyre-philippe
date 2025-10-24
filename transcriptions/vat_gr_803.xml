@@ -18,11 +18,11 @@
 		<sourceDesc>
 			<msDesc xml:id="X">
 				<msIdentifier>
-					<country></country>
-					<settlement></settlement>
-					<repository></repository>
-					<collection></collection>
-					<idno></idno>
+					<country>Vaticano</country>
+					<settlement>Città del Vaticano</settlement>
+					<repository>Biblioteca Apostolica Vaticana (BAV)</repository>
+					<collection>Vat gr.</collection>
+					<idno>803</idno>
 				</msIdentifier>
 			</msDesc>
 		</sourceDesc>
