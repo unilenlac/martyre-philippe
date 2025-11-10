@@ -57,7 +57,7 @@ approved) #REQUIRED>
 <!ATTLIST cb n CDATA #REQUIRED>
 
 <!ELEMENT lb EMPTY>
-<!ATTLIST lb n CDATA #IMPLIED>
+<!ATTLIST lb n CDATA #IMPLIED break CDATA #FIXED "no">
 
 <!ELEMENT head %text_model;>
 <!ATTLIST head type (initial|final|intermediate) #REQUIRED>
