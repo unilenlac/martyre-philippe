@@ -1,12 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/css" href="../../TEI-IRSB.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
-    <!-- ********************************************** -->
-    <!-- CE FICHIER DOIT ÊTRE COPIE DANS UN DOSSIER     -->
-    <!-- ********************************************** -->
-    <!-- NE PAS OUBLIER DE CHANGER L'ENTETE ET LE STATUS-->
-    <!-- ********************************************** -->
-    
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -29,7 +23,7 @@
 			</msDesc>
 		</sourceDesc>
 	</fileDesc>
-	<revisionDesc status="transcription-in-progress">
+	<revisionDesc status="transcription-finished">
 		<change />
 	</revisionDesc>
 	</teiHeader>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/css" href="../../TEI-IRSB.css"?>
-<!DOCTYPE TEI SYSTEM "../tei-irsb.dtd">
-<TEI>
+<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?>
+<!DOCTYPE TEI SYSTEM "../misc/tei-irsb.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -24,7 +24,7 @@
 			</msDesc>
 		</sourceDesc>
 	</fileDesc>
-	<revisionDesc status="transcription-in-progress">
+	<revisionDesc status="transcription-finished">
 		<change />
 	</revisionDesc>
 	</teiHeader>
@@ -60,7 +60,7 @@
                     <lb n="8"/>(κυ)· τὸν διαπρέψαντα τὸν θρόνον τῆς ἐκεῖσε ἐκκλη-
                     <lb n="9"/>σίας· φίλιππος ὁ ἀπόστολος διερχόμενος, τὰς τῆς
                     <lb n="10"/>αὐδίας(sic) καὶ ἀσίας πόλις καὶ χώρας· κατείγκελεν πᾶσι
-                    <lb n="11"/>τὸ ἐυαγγέλιον τοῦ (χῦ)· φθάσας δὲ ἐν πόλει ὀφιορύμη·
+                    <lb n="11"/>τὸ ἐυαγγέλιον τοῦ (χῦ)· <milestone n="104"/>φθάσας δὲ ἐν πόλει ὀφιορύμη·
                     <lb n="12"/>ἥτις καλεῖτε ἱεράπολις τῆς ἀσίας· ὑπεδέχθη ὑ-
                     <lb n="13"/>πό τινος πιστοῦ· ὀνόματι στάχυος· συνβῆν δὲ αὐτῶ·
                     <lb n="14"/>βαρθολομαῖος· εἷς ὢν τῶν μαθητῶν τοῦ (κῦ)· καὶ ἡ ἀ-

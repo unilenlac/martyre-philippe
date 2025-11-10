@@ -5,9 +5,7 @@
 # locked file are read-only and cannot be modified until unlocked.
 # ulocked files are writable. This is useful for ensuring that
 # only one branch can modify a specific transcription file at a time.
-# This script should be placed in the .git/hooks directory as a
-# post-checkout hook to ensure that it runs after every checkout, so that
-# the hook runs on checkout and branch switch.
+# This script should be placed in the .git/hooks directory
 
 # Get the current branch name
 current_branch=$(git rev-parse --abbrev-ref HEAD)

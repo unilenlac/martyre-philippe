@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TEI SYSTEM "../tei-irsb.dtd">
+<!DOCTYPE TEI SYSTEM "../misc/tei-irsb.dtd">
 <?xml-stylesheet type="text/css" href="../tei-irsb.css"?>
-<TEI>
-    <!-- ********************************************** -->
-    <!-- CE FICHIER DOIT ÊTRE COPIE DANS UN DOSSIER     -->
-    <!-- ********************************************** -->
-    <!-- NE PAS OUBLIER DE CHANGER L'ENTETE ET LE STATUS-->
-    <!-- ********************************************** -->
-    
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -30,7 +24,7 @@
 			</msDesc>
 		</sourceDesc>
 	</fileDesc>
-	<revisionDesc status="transcription-in-progress">
+	<revisionDesc status="transcription-finished">
 		<change />
 	</revisionDesc>
 	</teiHeader>

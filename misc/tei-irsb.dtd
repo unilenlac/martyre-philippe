@@ -3,6 +3,10 @@
 <!ENTITY % hand_model "(manus1|manus2|manus3|corr1|corr2|corr3|corr4|manus1-dubia|manus2-dubia|manus3-dubia|corr1-dubia|corr2-dubia|corr3-dubia|corr4-dubia|incerta)">
 
 <!ELEMENT TEI (teiHeader, text)>
+<!ATTLIST TEI
+    xmlns CDATA #FIXED "http://www.tei-c.org/ns/1.0"
+    xml:lang CDATA #IMPLIED
+>
 
 <!ELEMENT teiHeader (fileDesc, revisionDesc)>
 

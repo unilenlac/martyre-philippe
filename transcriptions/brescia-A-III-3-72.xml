@@ -1,13 +1,7 @@
 <?xml version="1.0"?>
-<?xml-stylesheet type="text/css" href="../../TEI-IRSB.css"?>
-<!DOCTYPE TEI SYSTEM "../tei-irsb.dtd">
-<TEI>
-    <!-- *******PM-3_brescia-A-III-3-72*************************************** -->
-    <!-- CE FICHIER DOIT ÊTRE COPIE DANS UN DOSSIER     -->
-    <!-- ********************************************** -->
-    <!-- NE PAS OUBLIER DE CHANGER L'ENTETE ET LE STATUS-->
-    <!-- ********************************************** -->
-    <!-- PM-3_brescia-A-III-3-72.xml-->
+<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?>
+<!DOCTYPE TEI SYSTEM "../misc/tei-irsb.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -30,7 +24,7 @@
 			</msDesc>
 		</sourceDesc>
 	</fileDesc>
-	<revisionDesc status="transcription-in-progress">
+	<revisionDesc status="transcription-finished">
 		<change />
 	</revisionDesc>
 	</teiHeader>
