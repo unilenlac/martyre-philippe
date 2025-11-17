@@ -27,6 +27,20 @@
 	<revisionDesc status="transcription-finished">
 		<change />
 	</revisionDesc>
+			<encodingDesc>
+      		<refsDecl>
+				<!--
+				<citeStructure unit="preface" match="//front/div" use="@type">
+					<citeStructure unit="preface_paragraph" match="p" use="position()" delim=".">
+						<citeStructure unit="linebreak" match="lb" use="position()" delim="."/>
+					</citeStructure>
+				</citeStructure>
+				-->
+				<citeStructure unit="transcription" match="//body/div" use="position()">
+					<citeStructure unit="milestone" match="milestone" use="@n" delim="."/>
+				</citeStructure>
+			</refsDecl>
+		</encodingDesc>
 	</teiHeader>
 	<text>
 		<body>
@@ -36,8 +50,8 @@
 				<head type="initial">
 					<lb n="6"/>ἐκ τῶν περιόδων τοῦ ἁγίου ἐνδόξου ἀποστόλου φιλίππου ἀπὸ πράξεως πέντε καὶ δεκάτης μέχρι τέλους τῆς ζωῆς αὐτοῦ εὐλόγησον <!-- RR titre encre différent -->
 				</head>
-				<milestone n="107" />
 				<p>
+					<milestone n="107" />
 					<lb n="7"/><hi>κ</hi>ατεκείνον τὸν καιρὸν, τραϊανοῦ τοῦ βασιλέως παρηληφῶτος τὴν τῶν ῥωμαίων ἀρχὴν·
 					<lb n="8"/>ἐν ὁγδόω ἔτη τῆς βασιλείας αὐτοῦ· σίμωνα τὸν κλωπὰ ἐπίσκοπον ὄντα ἱεροσολύμων, δεύτερον
 					<lb n="9"/>γενόμενον ἐπίσκοπον μετὰ ἱακώβου· τὸν χρηματίσαντα άδελφὸν τοῦ <abbr type="ns">κυ</abbr>· τῆς <add place="above" hand="manus1">ἐκεῖσε</add> ἐκκλησίας·
