@@ -28,10 +28,7 @@
 	</revisionDesc>
     <encodingDesc>
         <refsDecl>
-            <citeStructure>
-                <citeStructure unit="titre" match="//body/div/head" use="position()"/>
-                <citeStructure unit="milestone" match="//body/div/p/milestone" use="@n"/>
-            </citeStructure>
+            <citeStructure unit="milestone" match="//body/div/p/milestone" use="@n"/>
         </refsDecl>
     </encodingDesc>
 	</teiHeader>
