@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?>
 <!DOCTYPE TEI SYSTEM "../misc/tei-irsb.dtd">
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
@@ -12,21 +12,34 @@
 				<pubPlace>Lausanne</pubPlace>
 				<date>2023</date>
 			</publicationStmt>
-		<sourceDesc>
-			<msDesc xml:id="X">
-				<msIdentifier>
-					<country>Grèce</country>
-					<settlement>Mont Athos</settlement>
-					<repository>Iviron Monastery</repository>
-					<collection>Gr.</collection>
-					<idno>450</idno>
-				</msIdentifier>
-			</msDesc>
-		</sourceDesc>
-	</fileDesc>
-	<revisionDesc status="transcription-finished">
-		<change />
-	</revisionDesc>
+			<sourceDesc>
+				<msDesc xml:id="X">
+					<msIdentifier>
+						<country>Grèce</country>
+						<settlement>Mont Athos</settlement>
+						<repository>Iviron Monastery</repository>
+						<collection>Gr.</collection>
+						<idno>450</idno>
+					</msIdentifier>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+      		<refsDecl>
+				<!--
+				<citeStructure unit="preface" match="//front/div" use="@type">
+					<citeStructure unit="preface_paragraph" match="p" use="position()" delim=".">
+						<citeStructure unit="linebreak" match="lb" use="position()" delim="."/>
+					</citeStructure>
+				</citeStructure>
+				-->
+				<citeStructure unit="transcription" match="//body/div/p" use="position()">
+				</citeStructure>
+			</refsDecl>
+		</encodingDesc>
+		<revisionDesc status="transcription-finished">
+			<change />
+		</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
