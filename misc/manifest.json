@@ -1,0 +1,28 @@
+[
+    {
+        "id": "1",
+        "type": "collection",
+        "title": "Martyre de Philippe",
+        "lang": "grc",
+        "parent": null,
+        "children": [
+            {
+                "id": "athous-iviron-450",
+                "type": "Resource",
+                "title": "Le Martyre de Philippe - Athous Iviron 450",
+                "lang": "grc",
+                "parent": "1",
+                "description": "----------------",
+                "depth": 1,
+                "location": "https://raw.githubusercontent.com/unilenlac/martyre-philippe/refs/heads/main/transcriptions/athous-iviron-450.xml?token=GHSAT0AAAAAADPIDKD3MVYSVVKIM6XEABEU2I3HP5A",
+                "CitationTrees": [
+                {
+                    "name": "default",
+                    "position": 0
+                }
+                ],
+                "dublinCore": {}
+            }
+        ]
+    }
+]
