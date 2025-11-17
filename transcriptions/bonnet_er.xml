@@ -27,6 +27,11 @@
 	<revisionDesc status="transcription-finished">
 		<change />
 	</revisionDesc>
+    <encodingDesc>
+        <refsDecl>
+            <citeStructure unit="transcription" match="//body/div/milestone" use="@n" />
+        </refsDecl>
+    </encodingDesc>
 	</teiHeader>
 	<text>
 		<body>
