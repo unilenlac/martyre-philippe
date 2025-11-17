@@ -27,7 +27,7 @@
 	<revisionDesc status="transcription-finished">
 		<change />
 	</revisionDesc>
-			<encodingDesc>
+		<encodingDesc>
       		<refsDecl>
 				<!--
 				<citeStructure unit="preface" match="//front/div" use="@type">
@@ -36,8 +36,7 @@
 					</citeStructure>
 				</citeStructure>
 				-->
-				<citeStructure unit="transcription" match="//body/div" use="position()">
-					<citeStructure unit="milestone" match="milestone" use="@n" delim="."/>
+				<citeStructure unit="transcription" match="//body/div/p/milestone" use="@n">
 				</citeStructure>
 			</refsDecl>
 		</encodingDesc>
