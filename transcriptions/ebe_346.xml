@@ -28,7 +28,7 @@
 	</revisionDesc>
     <encodingDesc>
         <refsDecl>
-            <citeStructure unit="milestone" match="//body/div/p/milestone" use="@n"/>
+            <citeStructure unit="transcription" match="//body/div/p/milestone" use="@n"></citeStructure>
         </refsDecl>
     </encodingDesc>
 	</teiHeader>
