@@ -28,10 +28,7 @@
 	</revisionDesc>
     <encodingDesc>
         <refsDecl>
-            <citeStructure unit="transcription" match="//body/div" use="@n">
-                <citeData property="http://purl.org/dc/terms/title" use="head"/>
-                <citeStructure unit="milestone" match="/p/milestone" use="@n" delim="."/>
-            </citeStructure>
+            <citeStructure unit="transcription" match="//body/div/p/milestone" use="@n"/>
         </refsDecl>
     </encodingDesc>
 	</teiHeader>
