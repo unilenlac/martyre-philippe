@@ -39,6 +39,23 @@
                 }
                 ],
                 "dublinCore": {}
+            },
+            {
+                "id": "bonnet_er",
+                "type": "Resource",
+                "title": "Acta Philippi. Et Acta Thomae. Accedunt Acta Barnabae",
+                "lang": "grc",
+                "parent": "1",
+                "description": "----------------",
+                "depth": 1,
+                "location": "https://raw.githubusercontent.com/unilenlac/martyre-philippe/refs/heads/main/transcriptions/bonnet_er.xml",
+                "CitationTrees": [
+                {
+                    "name": "default",
+                    "position": 0
+                }
+                ],
+                "dublinCore": {}
             }
         ]
     }
