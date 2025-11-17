@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?>
-<!DOCTYPE TEI SYSTEM "../misc/tei-irsb.dtd">
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
 	<teiHeader>
 		<fileDesc>
@@ -27,6 +26,14 @@
 	<revisionDesc status="transcription-finished">
 		<change />
 	</revisionDesc>
+    <encodingDesc>
+        <refsDecl>
+            <citeStructure unit="transcription" match="//body/div" use="@n">
+                <citeData property="http://purl.org/dc/terms/title" use="head"/>
+                <citeStructure unit="milestone" match="/p/milestone" use="@n" delim="."/>
+            </citeStructure>
+        </refsDecl>
+    </encodingDesc>
 	</teiHeader>
 	<text>
 		<body>
@@ -50,8 +57,8 @@
 				<head type="initial">
                     <lb n="2"/>πράξις τοῦ ἁγίου φιλίππου τοῦ ἀποστόλου
                 </head >
-				<milestone n="107" />
 				<p>
+                    <milestone n="107" />
                     <lb n="3"/>κατ' ἐκεῖνον τὸν καιρῶν· τραϊανοῦ τοῦ βασιλέως· πα-
                     <lb n="4"/>ρειληφότος τὴν ῥωμαίων ἀρχήν, μετὰ τὸ μαρτυρίσαι
                     <lb n="5"/>ἐν ὁγδόῳ ἔτει τῆς βασιλεῖας αὐτοῦ, σίμωνα τῶν τοῦ κλωπᾶ·

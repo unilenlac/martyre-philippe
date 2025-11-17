@@ -69,7 +69,6 @@ approved) #REQUIRED>
 <!ATTLIST head hand %hand_model; #IMPLIED>
 
 <!ELEMENT div (pb|cb|head|p|note|gap|milestone|div)*>
-
 <!ELEMENT sic %text_model;>
 <!ELEMENT corr %text_model;>
 

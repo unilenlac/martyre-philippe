@@ -56,6 +56,23 @@
                 }
                 ],
                 "dublinCore": {}
+            },
+            {
+                "id": "ebe_346",
+                "type": "Resource",
+                "title": "Acta Philippi. Et Acta Thomae. Accedunt Acta Barnabae - EBE 346",
+                "lang": "grc",
+                "parent": "1",
+                "description": "----------------",
+                "depth": 1,
+                "location": "https://raw.githubusercontent.com/unilenlac/martyre-philippe/refs/heads/main/transcriptions/ebe_346.xml",
+                "CitationTrees": [
+                {
+                    "name": "default",
+                    "position": 0
+                }
+                ],
+                "dublinCore": {}
             }
         ]
     }
