@@ -75,5 +75,13 @@
                 "dublinCore": {}
             }
         ]
+    },
+    {
+        "id": "dublinCore",
+        "type": "collection",
+        "title": "empty collection",
+        "lang": "en",
+        "parent": null,
+        "children": []
     }
 ]
