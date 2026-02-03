@@ -12,3 +12,4 @@
 *.sw?
 
 /misc/*.py
+.existdb.json
