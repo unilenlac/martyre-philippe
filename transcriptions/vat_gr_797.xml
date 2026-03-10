@@ -1,7 +1,5 @@
-<?xml version="1.0"?>
-<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?>
-<!DOCTYPE TEI SYSTEM "../misc/tei-irsb.dtd">
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -25,7 +23,7 @@
 		</sourceDesc>
 	</fileDesc>
 	<revisionDesc status="transcription-finished">
-		<change />
+		<change/>
 	</revisionDesc>
 	</teiHeader>
 	<text>
@@ -33,13 +31,13 @@
 			<div>
                 <pb n="357r"/>
                 <cb n="2"/>
-				<milestone n="titre" />
+				<milestone n="titre"/>
 				<head type="initial">
                     <lb n="1"/>+Μαρτύριον τοῦ ἁγίου κα
                     <lb n="2"/>πανευφῆμου ἀποσ΄-
                     <lb n="3"/>τόλου, φιλίππου·+
-                </head >
-				<milestone n="107" />
+                </head>
+				<milestone n="107"/>
                 <!--
                 https://digi.vatlib.it/view/MSS_Vat.gr.797
 
@@ -76,7 +74,7 @@
                     <!-- f.357v, col. I -->
                     <pb n="357v"/>
                     <cb n="1"/>
-                    <lb n="1"/>τοῦ (κυ)· <milestone n="109" /> καὶ ἡ ἀδελφὴ αὐτοῦ
+                    <lb n="1"/>τοῦ (κυ)· <milestone n="109"/> καὶ ἡ ἀδελφὴ αὐτοῦ
                     <lb n="2"/>μαριάμνη· καὶ οἱ ἀκολου-
                     <lb n="3"/>θοῦντες αὐτῶ μαθηταὶ αὐ-
                     <lb n="4"/>τοῦ· πάντες δὲ καταλει-

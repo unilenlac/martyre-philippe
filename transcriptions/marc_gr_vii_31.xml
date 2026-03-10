@@ -1,7 +1,5 @@
-<?xml version="1.0"?>
-<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?>
-<!DOCTYPE TEI SYSTEM "../misc/tei-irsb.dtd">
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -25,7 +23,7 @@
 		</sourceDesc>
 	</fileDesc>
 	<revisionDesc status="transcription-finished">
-		<change />
+		<change/>
 	</revisionDesc>
 	</teiHeader>
 	<text>
@@ -35,9 +33,9 @@
                 <!-- f. 38v, col. II -->
                 <pb n="38v"/>
                 <cb n="2"/>
-				<milestone n="titre" />
-				<head type="initial"></head >
-				<milestone n="107" />
+				<milestone n="titre"/>
+				<head type="initial"/>
+				<milestone n="107"/>
                 <!--
                 Marcianus gr. VII 31
 
@@ -80,7 +78,7 @@
                 <lb n="17"/>νος πιστοῦ ὁνόματι
                 <lb n="18"/>στάχυος, · συνῆν δὲ καὶ
                 <lb n="19"/>βαρθολομαῖος συν αὐ-
-                <lb n="20"/>τῶ· <milestone n="109" /> ἀδελφὴ αὐτοῦ,
+                <lb n="20"/>τῶ· <milestone n="109"/> ἀδελφὴ αὐτοῦ,
                 <lb n="21"/>μαριάμνη; καὶ οἱ ἀκο-
                 <lb n="22"/>λουθοῦντες μαθηταὶ
                 <lb n="23"/>αὐτοῦ· συναχθέντων

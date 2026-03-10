@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TEI SYSTEM "../misc/tei-irsb.dtd">
-<?xml-stylesheet type="text/css" href="../tei-irsb.css"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../tei-irsb.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -15,17 +13,17 @@
 		<sourceDesc>
 			<msDesc xml:id="X">
 				<msIdentifier>
-					<country></country>
-					<settlement></settlement>
-					<repository></repository>
-					<collection></collection>
-					<idno></idno>
+					<country/>
+					<settlement/>
+					<repository/>
+					<collection/>
+					<idno/>
 				</msIdentifier>
 			</msDesc>
 		</sourceDesc>
 	</fileDesc>
 	<revisionDesc status="transcription-finished">
-		<change />
+		<change/>
 	</revisionDesc>
 	</teiHeader>
 	<text>
@@ -38,8 +36,8 @@
 					<lb n="23"/>μαρτύριον τοῦ ἀγίου ἀποστόλου φιλίππου
 					<lb n="24"/>ὅτε δὲ φίλιππος ὁ τοῦ χριστοῦ ἀπόσ
 					<lb n="25" break="no"/>τολος· 
-				</head >
-				<milestone n="107" />
+				</head>
+				<milestone n="107"/>
 				<p>
 					<lb n="25"/>κατεκλείσθη ἐν τῶ ἱερῶ
 					<lb n="26"/>τῆς ἐχίδνης ὑπὸ τοῦ ἡγεμόνος

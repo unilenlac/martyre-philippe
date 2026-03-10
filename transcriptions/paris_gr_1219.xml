@@ -1,7 +1,5 @@
-<?xml version="1.0"?>
-<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?>
-<!DOCTYPE TEI SYSTEM "../misc/tei-irsb.dtd">
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -15,30 +13,30 @@
 		<sourceDesc>
 			<msDesc xml:id="X">
 				<msIdentifier>
-					<country></country>
-					<settlement></settlement>
-					<repository></repository>
-					<collection></collection>
-					<idno></idno>
+					<country/>
+					<settlement/>
+					<repository/>
+					<collection/>
+					<idno/>
 				</msIdentifier>
 			</msDesc>
 		</sourceDesc>
 	</fileDesc>
 	<revisionDesc status="transcription-finished">
-		<change />
+		<change/>
 	</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div>
                 <pb n="45r"/>
-				<milestone n="titre" />
+				<milestone n="titre"/>
 				<head type="initial">
                     <lb n="1"/>+τοῦ ἁγίου ἐνδόξου καὶ πανευφήμου ἀποστόλου φιλίππου 
                     <lb n="2"/>ἐκ τῶν περιόδων· ἀπὸ πράξεως· ιε΄(15)· μέχρι τέ-
                     <lb n="3"/>λους· ἐν οἷς τὸ μαρτύριον αὐτοῦ· (κε) (ευλόγησον)·
-                </head >
-                <milestone n="107" />
+                </head>
+                <milestone n="107"/>
                 <!--
                 https://gallica.bnf.fr/ark:/12148/btv1b10722538m/f49.item.zoom
                 
@@ -64,7 +62,7 @@
                 <lb n="18"/>συναχθέντων δὲ πολλῶν ἀνδρῶν τε καὶ γυ-
                 <lb n="19"/>ναικῶν ἐν τῆ οἰκία τοῦ στάχυος, ἦν ὁ φίλιππος
                 <lb n="20"/>ἅμα τῶ βαρθολομαίω· διδάσκων αὐτοὺς τὰ πε-
-                <lb n="21"/>ρὶ τοῦ (ἰῦ)· <milestone n="109" /> δὲ ἀδελφὴ τοῦ φιλίππου μαριά-
+                <lb n="21"/>ρὶ τοῦ (ἰῦ)· <milestone n="109"/> δὲ ἀδελφὴ τοῦ φιλίππου μαριά-
                 <lb n="22"/>μνη καθεζομένη ἐν τῆ εἰσόδω τῆς οἰκείας τοῦ
                 <lb n="23"/>στάχυος προσεῖχεν τοῖς προσερχομένοις· πεί- infr. l. -θουσα
                 <!-- f. 45v -->

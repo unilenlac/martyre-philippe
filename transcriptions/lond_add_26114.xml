@@ -1,7 +1,5 @@
-<?xml version="1.0"?>
-<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?>
-<!DOCTYPE TEI SYSTEM "../misc/tei-irsb.dtd">
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -25,7 +23,7 @@
 		</sourceDesc>
 	</fileDesc>
 	<revisionDesc status="transcription-finished">
-		<change />
+		<change/>
 	</revisionDesc>
 	</teiHeader>
 	<text>
@@ -33,12 +31,12 @@
             <div>
                 <pb n="4r"/>
                 <cb n="1"/>
-                <milestone n="titre" />
+                <milestone n="titre"/>
                 <head type="initial">
                     <lb n="15"/>+ἐκ τῶν περιόδων φιλίππου τοῦ ἀποστόλου
                     <lb n="16"/>--esp. 16 s.-- (κυ) (ευ)
-                </head >
-                <milestone n="107" />
+                </head>
+                <milestone n="107"/>
                 <p>
                     <!--
                     TRANSCRIPTION

@@ -1,7 +1,5 @@
-<?xml version="1.0"?>
-<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?>
-<!DOCTYPE TEI SYSTEM "../misc/tei-irsb.dtd">
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -25,7 +23,7 @@
 		</sourceDesc>
 	</fileDesc>
 	<revisionDesc status="transcription-finished">
-		<change />
+		<change/>
 	</revisionDesc>
 	</teiHeader>
 	<text>
@@ -33,12 +31,12 @@
 			<div>
 				<pb n="174v"/>
 				<cb n="1"/>
-				<milestone n="titre" />
+				<milestone n="titre"/>
 				<head type="initial">
                     <lb n="3"/>μαρτύριον
                     <lb n="4"/>τοῦ ἁγίου ἀ-
                     <lb n="5"/>ποστόλου φιλίππου· κύριε εὐλόγησον·
-                </head >
+                </head>
                 <!--
                 https://pinakes.irht.cnrs.fr/notices/cote/65218/ , 
                 https://digi.vatlib.it/view/MSS_Chig.R.VI.39
@@ -51,7 +49,7 @@
                 -->
                 
                 <!-- f.174v, col. I -->
-                <milestone n="107" />
+                <milestone n="107"/>
                 <p>
                     <lb n="6"/>κατεκεῖνον τὸν
                     <lb n="7"/>καιρὸν τραϊ-
@@ -83,8 +81,8 @@
                     <lb n="33"/>ος, εἶς τῶν ἑβδομήκον-
                     <lb n="34"/>τα μαθητῶν τοῦ κυρίου·
                     <!-- f. 174v, col. II -->
-                    <pb n="174v" />
-                    <cb n="2" />
+                    <pb n="174v"/>
+                    <cb n="2"/>
                     <lb n="1"/>καὶ ἡ ἀδελφὴ αὐτοῦ μα-
                     <lb n="2"/>ριάμνη· καὶ οἱ ἀκολουθοῦν-
                     <lb n="3"/>τες αὐτῷ μαθηταὶ αὐτοῦ·
@@ -94,7 +92,7 @@
                     <lb n="7"/>ἦν ὁ φίλιππος σὺν βαρ-
                     <lb n="8"/>θολομαίω διδάσκων
                     <lb n="9"/>αὐτοῦς τὰ περὶ τοῦ ἰησοῦ·
-                    <lb n="10"/><milestone n="109" /> ἠ δὲ ἀδελφὴ τοῦ φιλίππου
+                    <lb n="10"/><milestone n="109"/> ἠ δὲ ἀδελφὴ τοῦ φιλίππου
                     <lb n="11"/>μαριάμνη καθεζομέ-
                     <lb n="12"/>νη ἐν τῆ ὀδῷ τῆς οἰκίας
                     <lb n="13"/>τοῦ στάχυος· ἔπειθεν τοὺς

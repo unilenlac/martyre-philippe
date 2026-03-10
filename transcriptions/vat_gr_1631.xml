@@ -1,7 +1,5 @@
-<?xml version="1.0"?>
-<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?>
-<!DOCTYPE TEI SYSTEM "../misc/tei-irsb.dtd">
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -25,7 +23,7 @@
 		</sourceDesc>
 	</fileDesc>
 	<revisionDesc status="transcription-finished">
-		<change />
+		<change/>
 	</revisionDesc>
 	</teiHeader>
 	<text>
@@ -33,19 +31,19 @@
 			<div>
 				<pb n="46r"/>
 				<cb n="2"/>
-				<milestone n="titre" />
+				<milestone n="titre"/>
 				<head type="initial">
                     <lb n="12"/>+ μαρτύριον τοῦ
                     <lb n="13"/>ἁγίου ἀποστόλου
                     <lb n="14"/>φιλίππου· (κε) 
                     <lb n="15"/>εὐ(λόγησον) δέσποτ(α)·
-                </head >
+                </head>
                 <!--
                 https://digi.vatlib.it (pas disponible en ligne, pdf commandé et acquis par la BAV)
 
                 Vaticanus gr. 1631, f.46r-54r
                 -->
-				<milestone n="107" />
+				<milestone n="107"/>
                 <p>
                     <!-- f. 46r, col. II, l.12 -->
                     <lb n="16"/>+ κατὰ τὸν καιρὸν ἐ-
@@ -86,7 +84,7 @@
                     <lb n="18"/>τῆ οἰκεῖα στάχυος, ἦν
                     <lb n="19"/>ὁ φίλιππος σὺν βαρθωλο-
                     <lb n="20"/>μαίω διδάσκων αὐτοὺς
-                    <lb n="21"/>τὰ περὶ τοῦ (ἰῦ)·  <milestone n="109" />ἡ δὲ ἀ-
+                    <lb n="21"/>τὰ περὶ τοῦ (ἰῦ)·  <milestone n="109"/>ἡ δὲ ἀ-
                     <lb n="22"/>δελφῆ τοῦ ἀποστόλου φι-
                     <lb n="23"/>λίππου μαριάμνη, κα-
                     <lb n="24"/>θεζωμένη ἐν τῆ ὁδῶ

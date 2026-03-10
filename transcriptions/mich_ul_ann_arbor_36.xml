@@ -1,7 +1,5 @@
-<?xml version="1.0"?>
-<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?>
-<!DOCTYPE TEI SYSTEM "../misc/tei-irsb.dtd">
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -15,31 +13,31 @@
 		<sourceDesc>
 			<msDesc xml:id="X">
 				<msIdentifier>
-					<country></country>
-					<settlement></settlement>
-					<repository></repository>
-					<collection></collection>
-					<idno></idno>
+					<country/>
+					<settlement/>
+					<repository/>
+					<collection/>
+					<idno/>
 				</msIdentifier>
 			</msDesc>
 		</sourceDesc>
 	</fileDesc>
 	<revisionDesc status="transcription-finished">
-		<change />
+		<change/>
 	</revisionDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<div>
 
-				<milestone n="titre" />
+				<milestone n="titre"/>
 				<head type="initial">
                     <lb n="1"/>πράξεις καὶ μαρτύριον
                     <lb n="2"/>τοῦ ἁγίου ἐνδόξου ἀποστό-
                     <lb n="3"/>λου φιλίππου- δέσ-
                     <lb n="4"/>ποτα, (εὐλόγησον)
-                </head >
-				<milestone n="1" />
+                </head>
+				<milestone n="1"/>
                 <!--
                 TRANSCRIPTION
                 MICHIGAN UL Ann Arbor MS n. 36
@@ -87,7 +85,7 @@
                     <lb n="16"/>δρῶν καὶ γυναικῶν ἐ-
                     <lb n="17"/>ν τῆ οἰκία τοῦ στάχυος, ἐ-
                     <lb n="18"/>κήρυττεν αὐτοὶς τὰ
-                    <lb n="19"/>περὶ τοῦ (ἰῦ)· <milestone n="109" />ἡ γὰρ ἀ-
+                    <lb n="19"/>περὶ τοῦ (ἰῦ)· <milestone n="109"/>ἡ γὰρ ἀ-
                     <lb n="20"/>δελφὴ αὐτοῦ μαριάμνη
                     <lb n="21"/>ἐκαθέζετο ἐν τῆ εἰ-
                     <lb n="22"/>σόδω τῆς οἰκίας προ-
