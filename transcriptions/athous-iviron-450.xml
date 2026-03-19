@@ -26,7 +26,7 @@
 		<encodingDesc>
       		<refsDecl>
 				<citeStructure unit="milestone" match="//milestone" use="@n">
-					<citeStructure unit="line" match="following::lb" use="@n" delim="."/>
+					<citeStructure unit="line" match="following::lb" use="position()" delim="."/>
 				</citeStructure>
 			</refsDecl>
 		</encodingDesc>
@@ -39,7 +39,7 @@
 			<div type="oeuvre">
 				<ab>
 					<milestone unit="episode" n="107"/>
-					<pb n="f.193v"/>
+					<pb n="f.193v"/><lb/>
 <hi>κ</hi>ατὰ τὸν καιρὸν ἐκεῖνον τραϊανοῦ τοῦ βασιλέως παρειληφότος τῆν τῶν ρω<lb n="1" break="no"/>
 μαίων ἀρχὴν· μετὰ τὸ μαρτυρῆσαι ἐν ὀγδόω ἔτει τῆς βασιλείας αὐτοῦ σίμω<lb n="2" break="no"/>
 να τὸν τοῦ κλωπᾶ ἐπίσκοπον ὄντα ϊεροσολύμων· δεύτερον γενόμενον<lb n="3"/>
