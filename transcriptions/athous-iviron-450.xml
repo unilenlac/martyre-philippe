@@ -26,7 +26,7 @@
 		<encodingDesc>
       		<refsDecl>
 				<citeStructure unit="milestone" match="//milestone" use="@n">
-					<citeStructure unit="linebreak" match="./lb" use="@n" delim="."/>
+					<citeStructure unit="linebreak" match="lb" use="@n" delim="."/>
 				</citeStructure>
 			</refsDecl>
 		</encodingDesc>
