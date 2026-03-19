@@ -25,7 +25,7 @@
 		</fileDesc>
 		<encodingDesc>
       		<refsDecl>
-				<citeStructure unit="preface" match="//milestone" use="@n">
+				<citeStructure unit="milestone" match="//milestone" use="@n">
 					<citeStructure unit="linebreak" match="lb" use="position()" delim="."/>
 				</citeStructure>
 			</refsDecl>
