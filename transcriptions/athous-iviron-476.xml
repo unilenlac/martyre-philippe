@@ -23,6 +23,13 @@
 			</msDesc>
 		</sourceDesc>
 	</fileDesc>
+	<encodingDesc>
+		<refsDecl>
+			<citeStructure unit="milestone" match="//milestone" use="@n">
+				<citeStructure unit="line" match="following::lb" use="position()" delim="."/>
+			</citeStructure>
+		</refsDecl>
+	</encodingDesc>
 	<revisionDesc status="transcription-finished">
 		<change />
 	</revisionDesc>
@@ -42,7 +49,7 @@ fol. 105v-124v
 https://pinakes.irht.cnrs.fr/notices/cote/24073/
 -->
 <!-- f. 105v, l. 8 -->
-<pb n="105v"/>
+<pb n="105v"/><lb n="7"/>
 <title>πράξις καὶ μαρτύριον τοῦ ἁγίου<lb n="8"/>
 ἐνδόξου άποστόλου φιλίππου·</title><lb n="9"/>
 Κατὰ τὸν καιρὸν ἐκεῖνον Τραϊανοῦ<lb n="10"/>
