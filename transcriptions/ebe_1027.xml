@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
+<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gr">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
