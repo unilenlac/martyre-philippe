@@ -22,6 +22,16 @@
 			</msDesc>
 		</sourceDesc>
 	</fileDesc>
+     <encodingDesc>
+        <refsDecl>
+            <citeStructure unit="milestone" match="//milestone" use="@n">
+                <citeStructure unit="line" match="following::lb" use="position()" delim="."/>
+            </citeStructure>
+            <citeStructure unit="page" match="//pb" use="@n">
+                <citeStructure unit="line" match="following::lb" use="@n" delim="."/>
+            </citeStructure>
+        </refsDecl>
+    </encodingDesc>
 	<revisionDesc status="transcription-finished">
 		<change/>
 	</revisionDesc>
