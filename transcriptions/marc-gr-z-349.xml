@@ -29,7 +29,9 @@
                 <citeStructure unit="line" match="following::lb" use="@n" delim="."/>
             </citeStructure>
             <citeStructure unit="page" match="//pb" use="@n">
-                <citeStructure unit="line" match="following::lb" use="@n" delim="."/>
+				<citeStructure use="col" match="following::cb">
+					<citeStructure unit="line" match="following::lb" use="@n" delim="."/>
+				</citeStructure>
             </citeStructure>
         </refsDecl>
     </encodingDesc>
