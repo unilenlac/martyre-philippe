@@ -29,7 +29,7 @@
                 <citeStructure unit="line" match="following::lb" use="@n" delim="."/>
             </citeStructure>
             <citeStructure unit="page" match="//pb" use="@n">
-				<citeStructure use="col" match="//cb" delim=".">
+				<citeStructure unit="col" match="//cb" use="@n" delim=".">
 					<citeStructure unit="line" match="following::lb" use="@n" delim="."/>
 				</citeStructure>
             </citeStructure>
