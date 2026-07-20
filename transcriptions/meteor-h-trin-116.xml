@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
+<?xml version="1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="gr">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -39,12 +40,12 @@
 	<text>
 		<body>
 			<div>
+				<ab>
 				<pb n="68r"/>				
 				<!-- Décoration avant le titre -->
-				<ab>
-				<milestone n="titre"/>
+				<milestone unit="episode" n="titre"/>
 				<title>
-					<seg type="order-number" place="margin-right" hand="manus1">
+					<seg type="order-number" hand="manus1">
 						<seg type="reading-date">
 							λόγος<num value="3">γ</num> μηνὶ νοεμβρίω<num value="14">δεκάτω και τετάρτω</num>
 						</seg>
@@ -54,7 +55,7 @@
 				    ἀποστόλου ἀπὸ πράξεως<lb n="10"/>
 				    μέχρι τέλους αἰν <!-- peu lisible dans la photocopie -->τὸ μαρτύριον<lb n="11"/>
 				</title>
-				<milestone n="107"/>
+				<milestone unit="episode" n="107"/>
 					<lb n="11"/>
 					<hi>κ</hi>ατεκείνον τὸν καιρὸν τραϊανοῦ τοῦ βα<lb n="12" break="no"/>
 					σιλέως παρηληφώτος τὴν τῶν ρω<lb n="13" break="no"/>
@@ -68,7 +69,7 @@
 					εῥχόμενος· κατὰ λυκίας ἐασίας πόλεις<lb n="21" break="no"/>
 					ἐχώρας κατήγγειλεν· πᾶσιν τὸ εὐαγγέ<lb n="22" break="no"/>
 					λιον τοῦ <abbr type="ns">χυ</abbr>·
-					<milestone n="108"/>
+					<milestone unit="episode" n="108"/>
 					<lb n="23"/>
 					φθάσας δὲ ἐν τῆ πόλει· ὡ<lb n="24" break="no"/>
 					φηορύμη· ἥτις καλείται ἱεράπολεις<lb n="25"/>
@@ -82,8 +83,10 @@
 					θηταὶ αὐτοῦ· συναχθέντων δὲ πολλῶν<lb n="5"/>
 					ἀνδρῶν τὲ καὶ γυναικῶν· ἐν τῆ οἱκία τοῦ<lb n="6"/>
 					στάχυος· ἣν ὁ φίλιππος ἄμα τῶ βαρθω<lb n="7"/>
-					λωμαίω· διδάσκων αὐτοὺς τὰ περὶ <abbr type="ns">ιῦ</abbr>· <milestone n="109"/>ἡ<lb n="8"/>
-					δὲ ἀδελφῆ τοῦ φιλήππου μαριἅμνη· κα<lb n="9" break="no"/>
+					λωμαίω· διδάσκων αὐτοὺς τὰ περὶ <abbr type="ns">ιῦ</abbr>· 
+					<milestone unit="episode" n="109"/>
+					<lb n="8"/>
+					ἡ δὲ ἀδελφῆ τοῦ φιλήππου μαριἅμνη· κα<lb n="9" break="no"/>
 					θεζωμένη ἐν τῆ οἱκοία τοῦ στάχυος· πρὸσ<lb n="10" break="no"/>
 					εἶχεν τοῦς πρὸς ἐρχομένους· πήθου<lb n="11" break="no"/>
 					σα αὐτοὺς ἐπακροάσθαι τῶν ἀποστόλων<lb n="12"/>
@@ -93,7 +96,7 @@
 					ἡ ὕπαρξις τῆς ἅνω πόλεως· ἡ τερπνώ<lb n="16" break="no"/>
 					της τοῦ κατηκητυρίου· οὗκ ἡτοίμασεν ὁ<lb n="17"/>
 					<abbr type="ns">θσ</abbr> τοῖς ἀγαπῶσιν αὐτὸν· καὶ ἀγαπήσατε·
-					<milestone n="110"/>
+					<milestone unit="episode" n="110"/>
 					<lb n="18"/>
 					καταπατήσατε τὰς παγίδας τοῦ<lb n="19"/>
 					ἐχθροῦ· τὸν ἡλισσώμενον ὅφιν στρεβλῆ<lb n="20"/>
@@ -124,7 +127,7 @@
 					δὴ οὐκ έχει παρησίαν ἐνουδενὶ· φεύγεται<lb n="11" break="no"/>
 					οὗν ἀπ'εαὐτοῦ· ἵνα μὴ ὁ ϊὸς αὐτοῦ ἐκχυ<lb n="12"/>
 					θὴ ἐπὶ τὰ στόματα ἡμῶν· 
-					<milestone n="111"/>
+					<milestone unit="episode" n="111"/>
 					<lb n="13"/>
 					γίνησθε<!-- la photocopie donne impression de la forme γένησθε, cf plus bas l.16 ἀφεαὐτὼν --> δὲ μᾶλλον· <lb n="14"/>
 					πιστοῖ· σεμνοὶ· ἀγαθοεργῆς· μὴ ἔχοντες<lb n="15"/>
@@ -138,12 +141,12 @@
 					σύστημα τῶν κακῶν· ὁ θάνατος τῶν <subst><del rend="overstrike">κακῶν</del><add place="inline" hand="manus1-dubia">ψυ<lb n="23" break="no"/>
 					χῶν</add></subst>· ἡ γὰρ ἐπιθυμία τοῦ <space atLeast="2" atMost="3"/> ἐχθροῦ· ὁπλἰ<lb n="24" break="no"/>
 					ζεται κατὰ τῶν πιστῶν· <!-- symbole dans cet endroit? peu lisible dans la photocopie --> ἐξέρχεται ἀπὸ<lb n="25"/>
-					τοῦ σκότους· καὶ πορεύεται ἐν τῶ σκότει· πο-<!--Pour Monsieur RENATO: Comment coller le dernier mot de la dernière ligne-à Revoir! -->
+					τοῦ σκότους· καὶ πορεύεται ἐν τῶ σκότει· πο<!--Pour Monsieur RENATO: Comment coller le dernier mot de la dernière ligne-à Revoir! -->
 					<pb n="69v"/>
-					<lb n="1"/>
+					<lb n="1" break="no"/>
 					λεμεῖν ἐπὶ χηροῦσα τοὺς ἐν τῶ φωτὶ· αὔτη γὰρ<lb n="2"/>
 					ἐστὶν ἣ τῆς πλεονεξίας ἀρχῆ·
-					<milestone n="112"/>διὸ ὑμεῖς·
+					<milestone unit="episode" n="112"/>διὸ ὑμεῖς·
 					<lb n="3"/>
 					οἱ θέλοντες πρὸς ἡμᾶς, μᾶλλον δὲ ὅτι<lb n="4"/>
 					<abbr type="ns">θσ</abbr> παρεγένετο δι ἡμῶν πρὸς ἡμᾶς ἐλεἥ<lb n="5" break="no"/>
@@ -158,9 +161,9 @@
 					γάγει ἡμᾶς ἐξ τοῦ λάκκου τῶν κακῶν καὶ κα<lb n="14" break="no"/>
 					θαρήσας<!--trace overstrike? à revoir! --> στίσει ἡμᾶς ἀμώμους ζώντας <lb n="15"/>
 					ἐν ἀληθεία ἔμπροσθεν τοῦ <abbr type="ns">πρς</abbr> αὐτοῦ· 
-					<milestone n="113"/>αύτα
+					<milestone unit="episode" n="113"/>
 					<lb n="16"/>
-					τα δὲ πάντα ἔλεγεν ὁ φίλιππος πρὸς τα<lb n="17"/>
+					αύτα τα δὲ πάντα ἔλεγεν ὁ φίλιππος πρὸς τα<lb n="17"/>
 					συνελθόντα πλήθη· διὰ τὰ ἐκ παλαιῶν<lb n="18"/>
 					χρόνων σἐβειν αὐτοὺς τοὺς ὅφις καὶ <lb n="19"/>
 					τὴν ἔχιδναν· ὃν καὶ ἐικόνα στήσαντες<!-- trace sur alpha à Revoir --> πρὸσ<lb n="20" break="no"/>
@@ -174,7 +177,7 @@
 					<lb n="1"/>
 					καὶ τοῖς περὶ αὐτῶν· οἰ δὲ πιστοὶ πλοίον <lb n="2"/>
 					ἐστηρίχθησαν ἐν τὴ ἀγάπη τοῦ <abbr type="ns">χῦ</abbr>·
-					<milestone n="114"/>
+					<milestone unit="episode" n="114"/>
 					<lb n="3"/>
 					νικανώρα δὲ ἡ γυνῆ τοῦ ἀνθυπάτου· κλινή<lb n="4" break="no"/>
 					ρις κατακειμένη ὑπὸ δηαφόρον νοση<lb n="5" break="no"/>
@@ -189,7 +192,7 @@
 					μένη ὑπὸ ἱδίων δούλων αὐτῆς· ἐν φορεί<lb n="14" break="no"/>
 					ω ἀργυραίω· καὶ ἥλθεν εἰς τὴν οἰκείαν <lb n="15"/>
 					τοῦ στάχυος ὅπου ἣν ὁ φίλιππος·
-					<milestone n="115"/>
+					<milestone unit="episode" n="115"/>
 					<lb n="16"/>
 					καὶ ὅ τι ἦλθεν ἔμπροσθεν τοῦ πυλώνος τῆς  <lb n="17"/>
 					οἱκίας· ἱδούσα αὐτὴν τὴν μαριἅμνη· ἡ<lb n="18"/>
@@ -200,9 +203,9 @@
 					τηρ τοῦ <abbr type="ns">πρσ</abbr>· σὺ εῖ ἡ κυρία μου· σὺ ἐδώ<lb n="23" break="no"/>
 					θης ἐνέχυραν τῶ ὅφει· ἀλήλθεν ὁ λυ<lb n="24" break="no"/>
 					τρωτῆς ἡμων ῥύσασθαί σε δι ἡμῶν· δι<lb n="25" break="no"/>
-					ἀρρήξαι τοῦς δεσμοῦς σου καὶ κατε-
+					ἀρρήξαι τοῦς δεσμοῦς σου καὶ κατε
 					<pb n="70v"/>
-					<lb n="1"/>
+					<lb n="1" break="no"/>
 					μὴν <note type="editorial">la lecture ici difficile par la photocopie</note> αὐτοὺς καὶ ἐκστῆλαι αὐτούς <note type="editorial">la lecture ici difficile par la photocopie</note> <lb n="2"/>
 					ὅτι σὺ ἀδελφή μου εἶ· μία <abbr type="ns">μῆρ</abbr> ἐγέννησεν <lb n="3"/>
 					ἡμᾶς διδύμους· ἐπελάθου τοῦ <abbr type="ns">πρσ</abbr> σου· ἐπε<lb n="4" break="no"/>
@@ -214,7 +217,7 @@
 					κατυκητήριον τοῦ θανάτου· ἱδου ἦλθεν<lb n="10"/>
 					ὁ λητρωτῆς σου ἵνα σε λυτρώσηται· ἀνέτει<lb n="11" break="no"/>
 					λέν σοι ἥλιος τῆς δικαιοσύνης <abbr type="ns">χσ</abbr> ἵνα σε φωτίσει·
-					<milestone n="116"/>
+					<milestone unit="episode" n="116"/>
 					<lb n="12"/>
 					ὡς δὲ ταυτα ἥκουσεν ἡ νικανόρα·<lb n="13"/>
 					ἐστῶσα πρὸ τῶν θυρῶν ἐπαρησιάσατο ἐνώ<lb n="14" break="no"/>
@@ -225,13 +228,13 @@
 					<abbr type="ns">πρῶν</abbr> μου ἱάθην· εὐθέως ἀπὸ τῆς νό<lb n="19" break="no"/>
 					σου καὶ τῶν περιἔχουσῶν με ὁδυνῶν·<lb n="20"/>
 					προσκυνῶ οῦν τὴν ἀγαθότητα τοῦ <abbr type="ns">χῦ</abbr>·<lb n="21"/>
-					ὅτι ἐποίησεν ἡμᾶς σηυνληναι<!--RR συνλήναι? σηωλήναι ? RR la lecture fait aucun sens à Revoir --> ἄχρι τῆς  <lb n="22"/>
+					ὅτι ἐποίησεν ἡμᾶς σηυνληναι<!--RR συνλήναι? σηωλήναι ? RR la lecture fait aucun sens à Revoir --> ἄχρι τῆς<lb n="22"/>
 					πόλεως ταύτης ταύτης· διὰ τὸν ἀληθηνὸν λί<lb n="23" break="no"/>
 					θον τὸν ἔντημον· ἵνα διὑμῶν δεξώ<lb n="24"/>
 					μεθα τὴν γνώσιν αὐτοὺ· καὶ βοήσωμεν<lb n="25"/>
 					συνημῖν πιστεύσαντε<unclear reason="damage" atLeast="1" atMost="2"/><note type="editorial">πιστεύσαντες</note> εἰς αὐτὸν· 
 					<pb n="71r"/>
-					<milestone n="117"/>
+					<milestone unit="episode" n="117"/>
 					<lb n="1"/>
 					ταῦτα εἰπούσης τῆς νικόνορας πρὸσηὔξα<lb n="2" break="no"/>
 					το ὑπὲρ αὐτῆς πρὸς τὸν <abbr type="ns">θν</abbr> ὁ απόστο<lb n="3" break="no"/>
@@ -247,7 +250,7 @@
 					τὴν χαρὰν τῶν <abbr type="ns">πρῶν</abbr> αὐτῆς ἐν ελευ<lb n="13" break="no"/>
 					θερία ἔχουσα κλήρον ἐν τῆ ἀγαθότητί<lb n="14"/>
 					σου <abbr type="ns">κε</abbr> <abbr type="ns">ιῦ</abbr> <abbr type="ns">χε</abbr>· 
-					<milestone n="118"/>
+					<milestone unit="episode" n="118"/>
 					<lb n="15"/>
 					πάντων δὲ ἀναπεμψάντων <lb n="16"/>
 					τῶ ἀμὴν· συν τῶ ἀποστόλω φιλίππω·<lb n="17"/>
@@ -264,7 +267,7 @@
 					<pb n="71v"/>
 					<lb n="1" break="no"/>
 					τιμωρίας καὶ οὐ σπλαγχνισθήσομαι ἐπὶ σοὶ·
-					<milestone n="119"/>
+					<milestone unit="episode" n="119"/>
 					<lb n="2"/>
 					ἡ δὲ ἀποκριθήσα λέγει αὐτω· ω<lb n="3"/>
 					τύραννε· ἔκβαλε ἀπὸ σοὺ τῆν τυρα<unclear reason="damage" atLeast="1" atMost="2"/><lb n="4"/>
