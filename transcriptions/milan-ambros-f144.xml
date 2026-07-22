@@ -14,11 +14,11 @@
 		<sourceDesc>
 			<msDesc xml:id="X">
 				<msIdentifier>
-					<country/>
-					<settlement/>
-					<repository/>
+					<country>Italy</country>
+					<settlement>Milan</settlement>
+					<repository>Biblioteca Ambrosiana</repository>
 					<collection/>
-					<idno/>
+					<idno>f144 sup</idno>
 				</msIdentifier>
 			</msDesc>
 		</sourceDesc>
