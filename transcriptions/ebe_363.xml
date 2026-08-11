@@ -11,7 +11,7 @@
 				<date>2021</date>
 			</publicationStmt>
 		<sourceDesc>
-			<msDesc xml:id="X">
+			<msDesc xml:id="Eb363">
 				<msIdentifier>
 					<country>Grèce</country>
 					<settlement>Athènes</settlement>
@@ -39,18 +39,16 @@
 	<text>
 		<body>
 			<div>
-				<pb n="287v"/>
-				<milestone n="titre"/>
-				<head type="initial">
+                <!-- 
+                CODEX ATHENIENSIS EBE 363, f. 287v-306v
+                l. 17
+                -->
+                <ab>
+                    <milestone n="107"/>
+				    <pb n="287v"/>
+                    <title type="initial">
                     <lb n="16"/>μαρτύριον τοῦ ἁγίου ἐνδόξου καὶ πανευφήμου<lb n="17"/>
-                    ἀποστόλου φιλίππου:
-                    </head>
-				<milestone n="107"/>
-				<p>
-                    <!-- 
-                    CODEX ATHENIENSIS EBE 363, f. 287v-306v
-                    l. 17
-                    -->
+                    ἀποστόλου φιλίππου:</title>
                     <pb n="287v"/>
                     <lb n="18"/>
                     κατεκεῖνον τὸν καιρὸν τραϊανοῦ παρειληφό<lb n="19" break="no" />
@@ -864,7 +862,7 @@
                     φίλιππος μηνὶ νοεμβρίω τέσσαρις καὶ δε<lb n="18" break="no" />
                     κάτη <!-- 14 nov. --> δοξάσωμεν δὲ οἱ πιστοὶ <abbr type="ns">πρα</abbr> καὶ <abbr type="ns">υἱὸν</abbr> καὶ<lb n="19"/>
                     ἅγιον <abbr type="ns">πνα</abbr>· νῦν καὶ ἀεὶ καὶ εἰς τοὺς αἰῶνας:<lb n="20" break="no" />
-				</p>
+				</ab>
 			</div>
 		</body>
 	</text>
