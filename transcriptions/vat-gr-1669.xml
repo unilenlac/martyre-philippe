@@ -3,7 +3,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Le Martyre de Philippe</title>
+				<title>Le Martyre de Philippe - Vaticanus, gr 1669</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>IRSB - Projet FNS « Éditer numériquement la littérature apocryphe chrétienne » (ENLAC) </publisher>
@@ -11,7 +11,7 @@
 				<date>2021</date>
 			</publicationStmt>
 		<sourceDesc>
-			<msDesc xml:id="X">
+			<msDesc xml:id="Vat1669">
 				<msIdentifier>
 					<country>Vaticano</country>
 					<settlement>Città del Vaticano</settlement>
@@ -31,11 +31,11 @@
 			<div>
                 <!-- f. 379v -->
 				<pb n="379v"/>
-				<milestone n="titre"/>
+				<milestone unit="episode" n="titre"/>
 				<head type="initial">
                     <lb n="22"/>+Μαρτύριον τοῦ ἁγίου φιλίππου τοῦ ἀποστόλου
                 </head>
-				<milestone n="107"/>
+				<milestone unit="episode" n="107"/>
                 <!--
                 https://digi.vatlib.it/view/MSS_Vat.gr.1669
 
@@ -57,7 +57,7 @@
                     <lb n="2"/>τῆς ἐκεῖσε ἐκκλησίας, φίλιππος ὁ ἀπόστο-
                     <lb n="3"/>λος διερχόμενος τὰς τῆς λυδίας καὶ ἀσίας πόλεις
                     <lb n="4"/>καὶ χώρας, κατήγγειλεν πᾶσιν τὸ έυαγγέλιον
-                    <lb n="5"/>τοῦ χριστοῦ· <milestone n="108"/>φθάσας δὲ ἐν πόλει ὀφιορύμη· ἥτις
+                    <lb n="5"/>τοῦ χριστοῦ· <milestone unit="episode" n="108"/>φθάσας δὲ ἐν πόλει ὀφιορύμη· ἥτις
                     <lb n="6"/>καλεῖται ἱεράπολις τῆς ἀσίας, ὑπεδέχθη ὑπό τι-
                     <lb n="7"/>νος πιστοῦ ὀνόματι στάχυος· συνβῆν δὲ αὐτῶ
                     <lb n="8"/>καὶ βαρθολομαῖος εἶς τῶν ἑβδομήκοντα --num 70-- μα-

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Le Martyre de Philippe</title>
+				<title>Le Martyre de Philippe - Vaticanus Chig, R. VII. 039 (gr. 31)</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>IRSB - Projet FNS « Éditer numériquement la littérature apocryphe chrétienne » (ENLAC) </publisher>
@@ -11,13 +12,13 @@
 				<date>2021</date>
 			</publicationStmt>
 		<sourceDesc>
-			<msDesc xml:id="X">
+			<msDesc xml:id="VatC39">
 				<msIdentifier>
-					<country/>
-					<settlement/>
-					<repository/>
-					<collection/>
-					<idno/>
+					<country>Vaticano</country>
+					<settlement>Vaticano</settlement>
+					<repository>Biblioteca Apostolica Vaticana (BAV)</repository>
+					<collection>Chig</collection>
+					<idno>R. VII. 039 (gr. 31)</idno>
 				</msIdentifier>
 			</msDesc>
 		</sourceDesc>
@@ -56,7 +57,7 @@
 				<lb n="21"/>τὰ τῆς λιδίας καὶ ἀ-
 				<lb n="22"/>σίας χῶρας, παρα-
 				<lb n="23"/>γγέλων τὸ έυαγγέλιον
-				<lb n="24"/>τοῦ χριστοῦ· <milestone n="108"/>φθάσας τι-
+				<lb n="24"/>τοῦ χριστοῦ· <milestone unit="episode" n="108"/>φθάσας τι-
 				<lb n="25"/>να πόλιν ὁφυορύμην,
 				<lb n="26"/>ἥτις καλεῖται ἱεράπο-
 				<lb n="27"/>λις τῆς ἀσίας· ὑπεδέχ-
@@ -77,7 +78,7 @@
 				<lb n="7"/>ἦν ὁ φίλιππος σὺν βαρ-
 				<lb n="8"/>θολομαίω διδάσκων
 				<lb n="9"/>αὐτοῦς τὰ περὶ τοῦ ἰησοῦ·
-				<lb n="10"/><milestone n="109"/>ἠ δὲ ἀδελφὴ τοῦ φιλίππου
+				<lb n="10"/><milestone unit="episode" n="109"/>ἠ δὲ ἀδελφὴ τοῦ φιλίππου
 				<lb n="11"/>μαριάμνη καθεζομέ-
 				<lb n="12"/>νη ἐν τῆ ὀδῷ τῆς οἰκίας
 				<lb n="13"/>τοῦ στάχυος· ἔπειθεν τοὺς

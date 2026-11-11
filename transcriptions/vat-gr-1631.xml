@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Le Martyre de Philippe</title>
+				<title>Le Martyre de Philippe - Vaticanus, gr 1631</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>IRSB - Projet FNS « Éditer numériquement la littérature apocryphe chrétienne » (ENLAC) </publisher>
@@ -11,7 +12,7 @@
 				<date>2021</date>
 			</publicationStmt>
 		<sourceDesc>
-			<msDesc xml:id="X">
+			<msDesc xml:id="Vat1631">
 				<msIdentifier>
 					<country>Vatincano</country>
 					<settlement>Città del Vaticano</settlement>
@@ -31,7 +32,7 @@
 			<div>
 				<pb n="46r"/>
 				<cb n="2"/>
-				<milestone n="titre"/>
+				<milestone unit="episode" n="titre"/>
 				<head type="initial">
                     <lb n="12"/>+ μαρτύριον τοῦ
                     <lb n="13"/>ἁγίου ἀποστόλου
@@ -43,7 +44,7 @@
 
                 Vaticanus gr. 1631, f.46r-54r
                 -->
-				<milestone n="107"/>
+				<milestone unit="episode" n="107"/>
                 <p>
                     <!-- f. 46r, col. II, l.12 -->
                     <lb n="16"/>+ κατὰ τὸν καιρὸν ἐ-
@@ -68,7 +69,7 @@
                     <lb n="2"/>ἦν δι'ἐρχόμενος, τὰ τῆς
                     <lb n="3"/>λυδίας καὶ ἀσίας χῶρας,
                     <lb n="4"/>παραγγέλων τὸ εὐαγγέλι-
-                    <lb n="5"/>ον τοῦ (χῦ)· <milestone n="108"/>φθάσας δὲ τη
+                    <lb n="5"/>ον τοῦ (χῦ)· <milestone unit="episode" n="108"/>φθάσας δὲ τη
                     <lb n="6"/>νὰ πόλιν, ἥτις καλεῖται
                     <lb n="7"/>ἱερᾶπόλις τῆς ἀσίας,
                     <lb n="8"/>ὑπεδέχθη ὑπό τινος τοῦνο-
@@ -84,7 +85,7 @@
                     <lb n="18"/>τῆ οἰκεῖα στάχυος, ἦν
                     <lb n="19"/>ὁ φίλιππος σὺν βαρθωλο-
                     <lb n="20"/>μαίω διδάσκων αὐτοὺς
-                    <lb n="21"/>τὰ περὶ τοῦ (ἰῦ)·  <milestone n="109"/>ἡ δὲ ἀ-
+                    <lb n="21"/>τὰ περὶ τοῦ (ἰῦ)·  <milestone unit="episode" n="109"/>ἡ δὲ ἀ-
                     <lb n="22"/>δελφῆ τοῦ ἀποστόλου φι-
                     <lb n="23"/>λίππου μαριάμνη, κα-
                     <lb n="24"/>θεζωμένη ἐν τῆ ὁδῶ

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="../../TEI-IRSB.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Le Martyre de Philippe</title>
+				<title>Le Martyre de Philippe, Vaticanus, gr 2123</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>IRSB - Projet FNS « Éditer numériquement la littérature apocryphe chrétienne » (ENLAC) </publisher>
@@ -11,7 +12,7 @@
 				<date>2021</date>
 			</publicationStmt>
 		<sourceDesc>
-			<msDesc xml:id="X">
+			<msDesc xml:id="Vat2123">
 				<msIdentifier>
 					<country>Vaticano</country>
 					<settlement>Città del Vaticano</settlement>
@@ -31,9 +32,9 @@
 			<div>
 				<pb n="53r"/>
 				<cb n="1"/>
-				<milestone n="titre"/>
+				<milestone unit="episode" n="titre"/>
 				<head type="initial"/>
-				<milestone n="1"/>
+				<milestone unit="episode" n="1"/>
                 <!--
                 Vat. gr 2123, f. 53r-57v
 

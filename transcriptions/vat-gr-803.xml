@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Le Martyre de Philippe</title>
+				<title>Le Martyre de Philippe - Vaticanus, gr 803</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>IRSB - Projet FNS « Éditer numériquement la littérature apocryphe chrétienne » (ENLAC) </publisher>
@@ -11,7 +12,7 @@
 				<date>2021</date>
 			</publicationStmt>
 		<sourceDesc>
-			<msDesc xml:id="X">
+			<msDesc xml:id="Vat803">
 				<msIdentifier>
 					<country>Vaticano</country>
 					<settlement>Città del Vaticano</settlement>
@@ -31,14 +32,14 @@
 			<div>
 				<pb n="36r"/>
 				<cb n="1"/>
-				<milestone n="titre"/>
+				<milestone unit="episode" n="titre"/>
 				<head type="initial">
                     <lb n="25"/>+ἐκ τῶν περιόδων φιλίππου τοῦ άποστόλου·
                     <lb n="26"/>άπὸ πράξεως πεντε και δεκάτης·
                     <lb n="27"/>μέχρι τέλους·
                     <lb n="28"/>ἐν αἷς τὸ μαρτύριον·
                 </head>
-				<milestone n="107"/>
+				<milestone unit="episode" n="107"/>
                 <!-- 
                 https://digi.vatlib.it/view/MSS_Vat.gr.803
                 
@@ -61,7 +62,7 @@
                     <lb n="2"/>φίλιππος ὁ ἀπόστολος διερχόμε-
                     <lb n="3"/>νος τὰς τῆς λυδίας καὶ ἀσίας πό-
                     <lb n="4"/>λεις καὶ χώρας, κατήγγειλεν πᾶ-
-                    <lb n="5"/>σιν τὸ έυαγγέλιον τοῦ χριστοῦ· <milestone n="108"/>φθάσας δὲ
+                    <lb n="5"/>σιν τὸ έυαγγέλιον τοῦ χριστοῦ· <milestone unit="episode" n="108"/>φθάσας δὲ
                     <lb n="6"/>ἐν πόλει ὀφιορύμη· ἥτις καλεῖ-
                     <lb n="7"/>ται ἱεράπολις τῆς ἀσίας· ὑπε-
                     <lb n="8"/>δέχθη ὑπό τινος πιστοῦ ὀνόματι
@@ -75,7 +76,7 @@
                     <lb n="16"/>δὲ πολλῶν ἀνδρῶν τε καὶ γυναικῶν
                     <lb n="17"/>ἐν τῆ οἰκία τοῦ στάχυος, ἧν ὁ φί-
                     <lb n="18"/>λιππος ἅμα τῶ βαρθολομαίω δι-
-                    <lb n="19"/>δάσκων αὐτοῦς τὰ περὶ τοῦ ἰησοῦ· <milestone n="109"/>ἡ
+                    <lb n="19"/>δάσκων αὐτοῦς τὰ περὶ τοῦ ἰησοῦ· <milestone unit="episode" n="109"/>ἡ
                     <lb n="20"/>δὲ ἀδελφὴ τοῦ φιλίππου μαρι-
                     <lb n="21"/>άμνη· καθεζομένη ἐν τῆ εἰσόδω
                     <lb n="22"/>τῆς οἰκίας τοῦ στάχυος, προσεῖχεν

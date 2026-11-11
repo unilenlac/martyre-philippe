@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Le Martyre de Philippe</title>
+				<title>Le Martyre de Philippe - Escorial Monasterio de San Lorenz, Mss y. II. 6</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>IRSB - Projet FNS « Éditer numériquement la littérature apocryphe chrétienne » (ENLAC) </publisher>
@@ -11,7 +12,7 @@
 				<date>2021</date>
 			</publicationStmt>
 		<sourceDesc>
-			<msDesc xml:id="X">
+			<msDesc xml:id="Sc6">
 				<msIdentifier>
 					<country>Espagne</country>
 					<settlement>Escorial (El-)</settlement>
@@ -31,12 +32,12 @@
 			<div>
 				<pb n="197v"/>
 				<cb n="2"/>
-				<milestone n="titre"/>
+				<milestone unit="episode" n="titre"/>
 				<head type="initial">
                     <lb n="16"/>μαρτύριον τοῦ ἁγ(ίου) ἀπο(στόλου) φι-
                     <lb n="17"/>λίππ(ου), δέσπ(οτα) εὐ(λόγησον)
                 </head>
-				<milestone n="107"/>
+				<milestone unit="episode" n="107"/>
                 <!--
                 Scorialensis y-II-6
 

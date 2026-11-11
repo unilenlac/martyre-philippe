@@ -4,7 +4,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Le Martyre de Philippe</title>
+				<title>Le Martyre de Philippe - Michigan Ann Arbor, Ms36 </title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>IRSB - Projet FNS « Éditer numériquement la littérature apocryphe chrétienne » (ENLAC) </publisher>
@@ -14,11 +14,11 @@
 		<sourceDesc>
 			<msDesc xml:id="Mul36">
 				<msIdentifier>
-					<country/>
-					<settlement/>
-					<repository/>
+					<country>United States of America</country>
+					<settlement>University of Michigan Library</settlement>
+					<repository>Ann Arbor</repository>
 					<collection/>
-					<idno/>
+					<idno>Ms 36</idno>
 				</msIdentifier>
 			</msDesc>
 		</sourceDesc>

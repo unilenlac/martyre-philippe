@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Le Martyre de Philippe</title>
+				<title>Le Martyre de Philippe - Vaticanus, gr 1636</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>IRSB - Projet FNS « Éditer numériquement la littérature apocryphe chrétienne » (ENLAC) </publisher>
@@ -11,7 +12,7 @@
 				<date>2021</date>
 			</publicationStmt>
 		<sourceDesc>
-			<msDesc xml:id="X">
+			<msDesc xml:id="Vat1636">
 				<msIdentifier>
 					<country>Vaticano</country>
 					<settlement>Città del Vaticano</settlement>
@@ -31,14 +32,14 @@
 			<div>
 				<pb n="19r"/>
 				<cb n="1"/>
-				<milestone n="titre"/>
+				<milestone unit="episode" n="titre"/>
 				<head type="initial">
                     <lb n="10"/>+πράξεις καὶ μαρτύ-
                     <lb n="11"/>ριον τοῦ ἁγίου καὶ ἐνδόξου
                     <lb n="12"/>πανευφήμου ἀποστόλου φι-
                     <lb n="13"/>λίππου· εὐλόγησον
                 </head>
-				<milestone n="107"/>
+				<milestone unit="episode" n="107"/>
                 <!--
                 https://digi.vatlib.it/view/MSS_Vat.gr.1636
 
@@ -64,7 +65,7 @@
                     <lb n="26"/>φίλιππος ὁ ἀπόστολος διερχόμε-
                     <lb n="27"/>νος τὰς τῆς λυδίας καὶ ἀσίας πόλεις καὶ χώ-
                     <lb n="28"/>ρας, κατήγγειλεν πᾶσι τὸ
-                    <lb n="29"/>εὐαγγέλιον· <milestone n="108"/>φθάσας δὲ ἐν
+                    <lb n="29"/>εὐαγγέλιον· <milestone unit="episode" n="108"/>φθάσας δὲ ἐν
                     <lb n="30"/>πόλει ὀφιωρύμη· ἥτις καλεῖ-
                     <lb n="31"/>ται ἱεράπολις τῆς ἀσίας·
                     <lb n="32"/>προσδέχθη ὑπό τινος πιστοῦ
@@ -83,7 +84,7 @@
                     <lb n="4"/>τῆ οἰκία τοῦ στάχυος, ἧν ὁ
                     <lb n="5"/>φίλιππος ἅμα τῶ βαρθολο-
                     <lb n="6"/>μαίω διδάσκων αὐτοῦς τὰ
-                    <lb n="7"/>περὶ τοῦ χριστοῦ καὶ κυρίου ἰησοῦ· <milestone n="109"/>ἡ δὲ ἀ-
+                    <lb n="7"/>περὶ τοῦ χριστοῦ καὶ κυρίου ἰησοῦ· <milestone unit="episode" n="109"/>ἡ δὲ ἀ-
                     <lb n="8"/>δελφὴ τοῦ φιλίππου μαρι-
                     <lb n="9"/>άμνη· καθεζομένη ἐν τῆ εἰ-
                     <lb n="10"/>σόδω τῆς οἰκίας τοῦ στάχυος,

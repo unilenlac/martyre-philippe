@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
@@ -11,7 +12,7 @@
 				<date>2021</date>
 			</publicationStmt>
 		<sourceDesc>
-			<msDesc xml:id="X">
+			<msDesc xml:id="Vat797">
 				<msIdentifier>
 					<country>Vaticano</country>
 					<settlement>Città del Vaticano</settlement>
@@ -31,13 +32,13 @@
 			<div>
                 <pb n="357r"/>
                 <cb n="2"/>
-				<milestone n="titre"/>
+				<milestone unit="episode" n="titre"/>
 				<head type="initial">
                     <lb n="1"/>+Μαρτύριον τοῦ ἁγίου κα
                     <lb n="2"/>πανευφῆμου ἀποσ΄-
                     <lb n="3"/>τόλου, φιλίππου·+
                 </head>
-				<milestone n="107"/>
+				<milestone unit="episode" n="107"/>
                 <!--
                 https://digi.vatlib.it/view/MSS_Vat.gr.797
 
@@ -63,7 +64,7 @@
                     <lb n="17"/>ερχόμενος τὰς τῆς λυδί-
                     <lb n="18"/>ας καὶ ἀσίας πόλεις καὶ χώ-
                     <lb n="19"/>ρας, κατήγγειλεν πᾶσι
-                    <lb n="20"/>τὸ έυαγγέλιον τοῦ (χῦ)· <milestone n="108"/>φθά-
+                    <lb n="20"/>τὸ έυαγγέλιον τοῦ (χῦ)· <milestone unit="episode" n="108"/>φθά-
                     <lb n="21"/>σας δὲ ἐν πόλει ὀφιορύμη
                     <lb n="22"/>ἥτις καλεῖται ἱεράπολις
                     <lb n="23"/>τῆς ἀσίας, ὑπεδέχθη
@@ -74,7 +75,7 @@
                     <!-- f.357v, col. I -->
                     <pb n="357v"/>
                     <cb n="1"/>
-                    <lb n="1"/>τοῦ (κυ)· <milestone n="109"/> καὶ ἡ ἀδελφὴ αὐτοῦ
+                    <lb n="1"/>τοῦ (κυ)· <milestone unit="episode" n="109"/> καὶ ἡ ἀδελφὴ αὐτοῦ
                     <lb n="2"/>μαριάμνη· καὶ οἱ ἀκολου-
                     <lb n="3"/>θοῦντες αὐτῶ μαθηταὶ αὐ-
                     <lb n="4"/>τοῦ· πάντες δὲ καταλει-

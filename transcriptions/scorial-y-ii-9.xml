@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Le Martyre de Philippe</title>
+				<title>Le Martyre de Philippe - Escorial Monasterio de San Lorenz, Mss y. II. 09 (Andrés 264)</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>IRSB - Projet FNS « Éditer numériquement la littérature apocryphe chrétienne » (ENLAC) </publisher>
@@ -11,7 +12,7 @@
 				<date>2021</date>
 			</publicationStmt>
 		<sourceDesc>
-			<msDesc xml:id="X">
+			<msDesc xml:id="Sc9">
 				<msIdentifier>
 					<country>Espagne</country>
 					<settlement>Escorial (El-)</settlement>
@@ -31,14 +32,14 @@
 			<div>
 				<pb n="81v"/>
 				<cb n="2"/>
-				<milestone n="titre"/>
+				<milestone unit="episode" n="titre"/>
 				<head type="initial">
                     <lb n="8"/>ἐκ τῶν περιόδων φιλίππου
                     <lb n="9"/>τοῦ ἀπο(στόλου) ἀπὸ πράξεως πενήντα
                     <lb n="10"/>καὶ δεκάτης· μέχρι τέλους ἐ-
                     <lb n="11"/>ν αἷς τὸ μαρτύριον· εὐ(λόγησον)
                 </head>
-				<milestone n="107"/>
+				<milestone unit="episode" n="107"/>
                 <!--
                 https://pinakes.irht.cnrs.fr/notices/cote/15477/
 
@@ -71,7 +72,7 @@
                     <lb n="1"/>δίας καὶ ἀσίας πόλεις
                     <lb n="2"/>καὶ χώρας· κατήγγειλε
                     <lb n="3"/>πᾶσι τὸ έυαγγέλιον τοῦ
-                    <lb n="4"/>(χῦ)· <milestone n="108"/>φθάσας οὖν ἐν πό-
+                    <lb n="4"/>(χῦ)· <milestone unit="episode" n="108"/>φθάσας οὖν ἐν πό-
                     <lb n="5"/>λει ὀφιορύμη, ἥτις κα-
                     <lb n="6"/>λεῖται ἱεράπολις τῆς
                     <lb n="7"/>ἀσίας, ὑπεδέχθη ὑπό
@@ -89,7 +90,7 @@
                     <lb n="19"/>ἧν ὁ φίλιππος ἅμα
                     <lb n="20"/>τῶι βαρθολομαίω δι-
                     <lb n="21"/>δάσκων αὐτοὺς τὰ πε-
-                    <lb n="22"/>ρὶ τοῦ (ἰῦ)· <milestone n="109"/>ἠ δὲ ἀδελφὴ
+                    <lb n="22"/>ρὶ τοῦ (ἰῦ)· <milestone unit="episode" n="109"/>ἠ δὲ ἀδελφὴ
                     <lb n="23"/>τοῦ φιλίππου μαριά-
                     <lb n="24"/>μνη· καθεζομένη ἐν
                     <lb n="25"/>τῆ εἰσόδω τῆς οἰκίας

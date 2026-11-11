@@ -3,7 +3,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Le Martyre de Philippe</title>
+				<title>Le Martyre de Philippe - Vaticanus, gr 1810</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>IRSB - Projet FNS « Éditer numériquement la littérature apocryphe chrétienne » (ENLAC) </publisher>
@@ -11,13 +11,13 @@
 				<date>2021</date>
 			</publicationStmt>
 		<sourceDesc>
-			<msDesc xml:id="X">
+			<msDesc xml:id="Vat1810">
 				<msIdentifier>
-					<country/>
-					<settlement/>
-					<repository/>
-					<collection/>
-					<idno/>
+					<country>Vaticano</country>
+					<settlement>Vaticano</settlement>
+					<repository>Biblioteca Apostolica Vaticana (BAV)</repository>
+					<collection>Chig</collection>
+					<idno>gr. 1810</idno>
 				</msIdentifier>
 			</msDesc>
 		</sourceDesc>
@@ -31,9 +31,9 @@
 			<div>
 				<pb n=""/>
 				<cb n=""/>
-				<milestone n="titre"/>
+				<milestone unit="episode" n="titre"/>
 				<head type="initial"/>
-				<milestone n="1.Isaie"/>
+				<milestone unit="episode" n="1.Isaie"/>
 				<p>
 					<lb n=""/><hi>ἡ</hi>σαΐας, ἢν ἀπὸ <abbr type="ns">ἱλημ</abbr>. 
 				</p>

@@ -4,7 +4,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Le Martyre de Philippe</title>
+				<title>Le Martyre de Philippe - Paris gr. 1485</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>IRSB - Projet FNS « Éditer numériquement la littérature apocryphe chrétienne » (ENLAC) </publisher>
@@ -14,11 +14,11 @@
 		<sourceDesc>
 			<msDesc xml:id="PaG1485">
 				<msIdentifier>
-					<country/>
-					<settlement/>
-					<repository/>
-					<collection/>
-					<idno/>
+					<country>France</country>
+					<settlement>Paris</settlement>
+					<repository>Bibliothèque nationale de France (BNF)</repository>
+					<collection>Grec</collection>
+					<idno>1485</idno>
 				</msIdentifier>
 			</msDesc>
 		</sourceDesc>

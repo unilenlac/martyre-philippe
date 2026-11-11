@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="../misc/tei-irsb.css"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="grc">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title>Le Martyre de Philippe</title>
+				<title>Le Martyre de Philippe - Mt Athous Esphigmenou, Lampros 1895</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>IRSB - Projet FNS « Éditer numériquement la littérature apocryphe chrétienne » (ENLAC) </publisher>
@@ -11,7 +12,7 @@
 				<date>2021</date>
 			</publicationStmt>
 		<sourceDesc>
-			<msDesc xml:id="X">
+			<msDesc xml:id="The61">
 				<msIdentifier>
 					<country>Grèce</country>
 					<settlement>Mont Athos</settlement>
@@ -43,13 +44,13 @@
                 -->
                     
                 <pb n="63r"/>
-                <milestone n="titre"/>
+                <milestone unit="episode" n="titre"/>
                 <head type="initial">
                     <lb n="20"/> πράξης καὶ μαρτύρηων τοῦ ἁγίου ἀποσ-
                     <lb n="21"/> τόλου φιλλήπου· μαρτυρύσαντος ἐν ἠε-
                     <lb n="22"/> ρά πόλλη τὴς ἀσήας εὐλόγησον δέσποτα·
                 </head>
-                <milestone n="107"/>
+                <milestone unit="episode" n="107"/>
                 <p>
                     <!-- f. 63r l. 20 -->
 					<pb n="63r"/>
@@ -62,7 +63,7 @@
                     <lb n="29"/> δελφὸν τοῦ κυρίου τῆς ἐκεῖσε ἐκλησήας· φίλιππος
                     <lb n="30"/> ὁ ἀπόστολος· διερχόμενος τὰς τῆς λοιδορήας
                     <lb n="31"/> πόλης καὶ χόρας, κατήγγελεν πάσην τὸ έυαγγέ-
-                    <lb n="32"/> λιον τοῦ (χῦ)· <milestone n="108"/>φθάσας δὲ ἐν πόλει ὀφιορύμει· ἥτις
+                    <lb n="32"/> λιον τοῦ (χῦ)· <milestone unit="episode" n="108"/>φθάσας δὲ ἐν πόλει ὀφιορύμει· ἥτις
                     <lb n="33"/> καλήται ἱεράπολης τῆς ἀσίας, ὑπεδέχθη δὲ
                     <lb n="34"/> ὑπό τηνος πηστοῦ ὀνόματι στάχυος· συνβήν δὲ
                     <lb n="35"/> αὐτὸ βαρθολομέως εἶς τῶν ἑβδομείκοντα --num 70-- μαθητὸν
@@ -72,7 +73,7 @@
                     <lb n="2"/>θοῦντες αὐτὸ μαθηταὶ αὐτοῦ· συναχθέντον δὲ πο-
                     <lb n="3"/>λόν ἀνδρῶν τὲ καὶ γυνεκόν τῆ οἰκεία τοῦ στάχυος·
                     <lb n="4"/>ἣν ό φήληππος ἁμα τὸ βαρθολομέω διδάσκον αὐ-
-                    <lb n="5"/>τοὺς τὰ περὶ τοῦ (θῦ)· <milestone n="109"/>ἠ δὲ ἀδελφὶ τοῦ φιλίππου
+                    <lb n="5"/>τοὺς τὰ περὶ τοῦ (θῦ)· <milestone unit="episode" n="109"/>ἠ δὲ ἀδελφὶ τοῦ φιλίππου
                     <lb n="6"/>μαριάμνη· καθεζομένη ἐν τῆ ἠσόδω τῆς οἰκήας
                     <lb n="7"/>τοῦ στάχοιως· προσήχεν τοὺς προσερχομένους·
                     <lb n="8"/>πήθουσα αὐτοὺς ἐπακροάς τε τὸν ἀποστόλων
