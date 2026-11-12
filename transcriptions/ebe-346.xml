@@ -33,8 +33,9 @@
 			</citeStructure>
 		</refsDecl>
 	</encodingDesc>
-	<revisionDesc status="transcription-finished">
-		<change />
+	<revisionDesc status="published">
+        <change when="2026-09-02" status="published"/>
+        <change when="2026-09-01" status="transcription-finished"/>
 	</revisionDesc>
 	</teiHeader>
 	<text>
